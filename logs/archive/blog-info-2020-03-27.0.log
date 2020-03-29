@@ -1,0 +1,119 @@
+2020-03-27 21:45:49.685 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 58972 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-03-27 21:45:49.691 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-27 21:45:51.095 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-27 21:45:51.109 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-27 21:45:51.117 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-27 21:45:51.118 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 21:45:51.357 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-27 21:45:51.357 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1625 ms
+2020-03-27 21:45:51.466 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-27 21:45:51.488 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-27 21:46:45.937 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 53496 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-03-27 21:46:45.944 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-27 21:46:47.213 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-27 21:46:47.226 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-27 21:46:47.234 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-27 21:46:47.235 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 21:46:47.383 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-27 21:46:47.383 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1344 ms
+2020-03-27 21:46:47.511 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-27 21:46:47.751 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-27 21:46:47.770 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-27 21:47:02.094 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 44808 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-03-27 21:47:02.099 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-27 21:47:03.408 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-27 21:47:03.419 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-27 21:47:03.431 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-27 21:47:03.432 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 21:47:03.574 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-27 21:47:03.575 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1383 ms
+2020-03-27 21:47:03.697 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-27 21:47:04.074 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-27 21:47:04.078 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-27 21:47:04.086 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-27 22:01:02.550 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 38176 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-03-27 22:01:02.554 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-27 22:01:03.858 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-27 22:01:03.871 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-27 22:01:03.881 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-27 22:01:03.881 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 22:01:04.048 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-27 22:01:04.048 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1389 ms
+2020-03-27 22:01:04.178 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-27 22:01:10.328 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-27 22:01:10.458 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-03-27 22:01:10.460 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-27 22:01:10.470 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-27 22:02:23.936 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 57360 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-03-27 22:02:23.942 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-27 22:02:25.111 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-27 22:02:25.126 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-27 22:02:25.136 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-27 22:02:25.136 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 22:02:25.291 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-27 22:02:25.291 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1305 ms
+2020-03-27 22:02:25.411 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-27 22:02:29.063 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-27 22:02:29.863 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 22:02:30.158 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-27 22:02:30.176 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-27 22:02:30.179 INFO  [main]com.lza.blog.BlogApplication.logStarted:59 -Started BlogApplication in 6.783 seconds (JVM running for 7.82)
+2020-03-27 22:02:59.999 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 22:02:59.999 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-27 22:03:00.014 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 15 ms
+2020-03-27 22:03:00.045 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/1
+2020-03-27 22:03:00.046 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 22:03:00.051 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 127.0.0.1
+2020-03-27 22:03:00.053 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 22:03:00.053 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[1]
+2020-03-27 22:03:00.056 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:62 -耗时 : 11
+2020-03-27 22:03:00.107 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:74 -返回值：{"code":20000,"msg":"操作成功!"}
+2020-03-27 22:03:03.585 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/12
+2020-03-27 22:03:03.586 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 22:03:03.586 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 127.0.0.1
+2020-03-27 22:03:03.587 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 22:03:03.587 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[12]
+2020-03-27 22:10:08.395 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/12
+2020-03-27 22:10:08.396 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 22:10:08.396 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 0:0:0:0:0:0:0:1
+2020-03-27 22:10:08.396 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 22:10:08.397 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[12]
+2020-03-27 22:10:09.080 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/12
+2020-03-27 22:10:09.080 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 22:10:09.080 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 0:0:0:0:0:0:0:1
+2020-03-27 22:10:09.080 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 22:10:09.081 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[12]
+2020-03-27 22:10:09.591 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/12
+2020-03-27 22:10:09.591 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 22:10:09.592 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 0:0:0:0:0:0:0:1
+2020-03-27 22:10:09.592 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 22:10:09.592 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[12]
+2020-03-27 22:10:12.990 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/1
+2020-03-27 22:10:12.990 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 22:10:12.990 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 0:0:0:0:0:0:0:1
+2020-03-27 22:10:12.990 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 22:10:12.990 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[1]
+2020-03-27 22:10:12.991 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:62 -耗时 : 1
+2020-03-27 22:10:12.991 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:74 -返回值：{"code":20000,"msg":"操作成功!"}
+2020-03-27 23:04:52.509 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/1
+2020-03-27 23:04:52.516 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 23:04:52.516 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 0:0:0:0:0:0:0:1
+2020-03-27 23:04:52.517 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 23:04:52.517 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[1]
+2020-03-27 23:04:52.517 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:62 -耗时 : 8
+2020-03-27 23:04:52.518 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:74 -返回值：{"code":20000,"msg":"操作成功!"}
+2020-03-27 23:04:53.124 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:97 -请求地址 : /test/textException/1
+2020-03-27 23:04:53.125 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:98 -请求方式 : GET
+2020-03-27 23:04:53.125 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:101 -IP : 0:0:0:0:0:0:0:1
+2020-03-27 23:04:53.126 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:103 -方法 : com.lza.blog.controller.TestController.testException
+2020-03-27 23:04:53.126 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:105 -请求参数：[1]
+2020-03-27 23:04:53.126 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:62 -耗时 : 2
+2020-03-27 23:04:53.127 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:74 -返回值：{"code":20000,"msg":"操作成功!"}

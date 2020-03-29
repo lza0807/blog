@@ -1,0 +1,20 @@
+server:
+  port: 1000
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.lza.blog.pojo
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://139.9.130.249:3306/blog?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 10000
+      testOnBorrow: true
+      testOnReturn: false
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
