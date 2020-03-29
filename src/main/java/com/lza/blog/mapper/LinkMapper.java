@@ -1,9 +1,9 @@
 package com.lza.blog.mapper;
 
 
+import com.lza.blog.pojo.Link;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 
 /**
  * <p>
@@ -18,4 +18,9 @@ import java.util.List;
 public interface LinkMapper {
 
 
+    /**
+     * 保存
+     * @param link
+     */
+    void save(Link link);
 }

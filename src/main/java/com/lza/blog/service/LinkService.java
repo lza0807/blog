@@ -1,6 +1,7 @@
 package com.lza.blog.service;
 
 
+import com.lza.blog.pojo.Link;
 
 /**
  * <p>
@@ -14,4 +15,9 @@ package com.lza.blog.service;
  */
 public interface LinkService {
 
+    /**
+     * 保存
+     * @param link
+     */
+    void save(Link link);
 }

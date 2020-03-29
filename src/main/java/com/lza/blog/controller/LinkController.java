@@ -22,9 +22,14 @@ public class LinkController {
     @Autowired
     private LinkService linkService;
 
+    /**
+     * 保存
+     * @param link
+     * @return
+     */
     @RequestMapping(value = "/save",method = RequestMethod.POST)
     public Result<Object> save(@RequestBody Link link){
-
+        this.linkService.save(link);
         return new Result<>(ResultEnum.SUCCESS.getCode(),"添加成功!");
     }
 }

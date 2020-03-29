@@ -22,4 +22,7 @@
         version,
         deleted
     </sql>
+    <insert id="save" parameterType="com.lza.blog.pojo.Link">
+        insert into bl_link(link_name, link_url) values (#{linkName},#{linkUrl})
+    </insert>
    </mapper>

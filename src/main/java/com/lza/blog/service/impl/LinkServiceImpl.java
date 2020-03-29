@@ -2,6 +2,8 @@ package com.lza.blog.service.impl;
 
 
 import com.lza.blog.mapper.CollectionMapper;
+import com.lza.blog.mapper.LinkMapper;
+import com.lza.blog.pojo.Link;
 import com.lza.blog.service.CollectionService;
 import com.lza.blog.service.LinkService;
 import lombok.extern.slf4j.Slf4j;
@@ -23,7 +25,11 @@ import org.springframework.stereotype.Service;
 public class LinkServiceImpl implements LinkService {
 
     @Autowired
-    private LinkService linkService;
+    private LinkMapper linkMapper;
 
 
+    @Override
+    public void save(Link link) {
+        this.linkMapper.save(link);
+    }
 }
