@@ -27,8 +27,9 @@ public class BlogServiceImpl implements BlogService {
 
     @Autowired
     private BlogMapper blogMapper;
-    @Autowired
-    private TypeMapper typeMapper;
 
-
+    @Override
+    public void save(Blog blog) {
+        this.blogMapper.save(blog);
+    }
 }

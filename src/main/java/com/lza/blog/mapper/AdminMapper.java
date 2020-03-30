@@ -23,4 +23,17 @@ public interface AdminMapper{
      * @return
      */
     Admin getUserByName(String username);
+    /**
+     * 查询管理员信息
+     * @return
+     */
+    Admin getAdminInfo();
+
+    /**
+     * 跟新管理员信息
+     * @param admin
+     * @return
+     */
+    void updateAdminInfo(Admin admin);
+
 }

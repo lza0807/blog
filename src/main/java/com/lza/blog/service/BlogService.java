@@ -16,4 +16,10 @@ import com.lza.blog.pojo.Blog;
 public interface BlogService {
 
 
+    /**
+     * 添加博客
+     * @param blog
+     * @return
+     */
+    void save(Blog blog);
 }

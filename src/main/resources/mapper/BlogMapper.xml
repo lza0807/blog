@@ -24,5 +24,9 @@
     <sql id="Base_Column_List">
         blog_id, blog_title, blog_content, blog_goods, blog_read, blog_collection, blog_type, blog_remark, blog_comment, blog_source, created_time, update_time, version, deleted
     </sql>
+    <insert id="save" parameterType="com.lza.blog.pojo.Blog">
+        insert into bl_blog(blog_title, blog_content,  blog_collection, blog_type, blog_remark, blog_source)
+        values(#{blogTitle},#{blogContent},#{blogCollection},#{blogType},#{blogRemark},#{blogSource})
+    </insert>
 
 </mapper>

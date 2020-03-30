@@ -37,4 +37,22 @@ public class AdminServiceImpl implements AdminService {
         Admin admin =adminMapper.getUserByName(username);
         return admin;
     }
+
+    @Override
+    public Admin getAdminInfo() {
+
+        return this.adminMapper.getAdminInfo();
+    }
+
+    @Override
+    public void updateAdminInfo(Admin admin) {
+        this.adminMapper.updateAdminInfo(admin);
+    }
+
+    @Override
+    public void updatePassword(Admin admin) {
+        Admin adminInfo = this.adminMapper.getAdminInfo();
+        adminInfo.setPassword(admin.getPassword());
+        this.adminMapper.updateAdminInfo(adminInfo);
+    }
 }

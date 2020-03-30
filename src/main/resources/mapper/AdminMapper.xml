@@ -16,9 +16,38 @@
     <sql id="Base_Column_List">
         id, name, header, signature, comment, username, password
     </sql>
+    <update id="updateAdminInfo" parameterType="com.lza.blog.pojo.Admin">
+        update bl_admin
+        <set>
+            <if test="name!=null and name !=''">
+                name = #{name},
+            </if>
+            <if test="header!=null and header !=''">
+                header = #{header},
+            </if>
+            <if test="signature!=null and signature !=''">
+                signature = #{signature},
+            </if>
+            <if test="comment!=null and comment !=''">
+                comment = #{comment},
+            </if>
+            <if test="username!=null and username !=''">
+                username = #{username},
+            </if>
+            <if test="password!=null and password !=''">
+                password = #{password},
+            </if>
+        </set>
+        where  id = #{id}
+    </update>
 
     <select id="getUserByName" resultMap="BaseResultMap">
         select name,header,signature,comment,username,password from bl_admin where username = #{username}
+    </select>
+    <select id="getAdminInfo" resultMap="BaseResultMap">
+        select
+        id, name, header, signature, comment, username
+        from bl_admin
     </select>
 
 </mapper>

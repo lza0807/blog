@@ -3,6 +3,7 @@ package com.lza.blog.controller;
 import com.lza.blog.enums.ResultEnum;
 import com.lza.blog.enums.StateEnums;
 import com.lza.blog.pojo.Admin;
+import com.lza.blog.service.AdminService;
 import com.lza.blog.utils.Result;
 import com.lza.blog.utils.ShiroUtils;
 import com.lza.blog.utils.StringUtils;
@@ -10,11 +11,9 @@ import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -28,6 +27,10 @@ import java.util.Map;
 @RestController
 @RequestMapping("/admin")
 public class AdminController {
+
+    @Autowired
+    private AdminService adminService;
+
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public Result<Object> login(@RequestBody Admin admin) {
         if (admin == null || StringUtils.isBlank(admin.getUsername()) || StringUtils.isBlank(admin.getPassword())) {
@@ -57,4 +60,38 @@ public class AdminController {
         Admin loginAdmin = ShiroUtils.getLoginUser();
         return new Result<>(loginAdmin);
     }
+
+    /**
+     * 查询管理员信息
+     * @return
+     */
+    @RequestMapping(value = "/getAdminInfo",method = RequestMethod.GET)
+    public Result<Admin> getAdminInfo(){
+        Admin admin = this.adminService.getAdminInfo();
+        return new Result<>(admin);
+    }
+
+    /**
+     * 跟新管理员信息
+     * @param admin
+     * @return
+     */
+    @RequestMapping(value = "/updateAdminInfo",method = RequestMethod.PUT)
+    public Result<Object> updateAdminInfo(@RequestBody Admin admin){
+        this.adminService.updateAdminInfo(admin);
+        return new Result<>("更新成功");
+    }
+
+    /**
+     * 修改管理员信息
+     * @param admin
+     * @return
+     */
+    @RequestMapping(value = "/updatePassword",method = RequestMethod.PUT)
+    public Result<Object> updatePassword(@RequestBody Admin admin){
+        this.adminService.updatePassword(admin);
+        return new Result<>("修改成功！");
+    }
+
+
 }

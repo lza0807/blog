@@ -15,4 +15,10 @@ import org.springframework.stereotype.Component;
 @Component
 public interface BlogMapper {
 
+    /**
+     * 添加博客
+     * @param blog
+     * @return
+     */
+    void save(Blog blog);
 }
