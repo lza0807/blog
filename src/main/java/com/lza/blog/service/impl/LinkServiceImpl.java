@@ -10,6 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  * 收藏时间服务实现类
@@ -31,5 +33,25 @@ public class LinkServiceImpl implements LinkService {
     @Override
     public void save(Link link) {
         this.linkMapper.save(link);
+    }
+
+    @Override
+    public void updateById(Link link) {
+        this.linkMapper.updateByID(link);
+    }
+
+    @Override
+    public Link getLinkInfoById(Integer id) {
+        return this.linkMapper.getLinkInfoById(id);
+    }
+
+    @Override
+    public List<Link> getAllLinkInfo() {
+        return this.linkMapper.getAllLinkInfo();
+    }
+
+    @Override
+    public void delete(Integer id) {
+         this.linkMapper.delete(id);
     }
 }

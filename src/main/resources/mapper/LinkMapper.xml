@@ -25,4 +25,35 @@
     <insert id="save" parameterType="com.lza.blog.pojo.Link">
         insert into bl_link(link_name, link_url) values (#{linkName},#{linkUrl})
     </insert>
-   </mapper>
+    <update id="updateByID" parameterType="com.lza.blog.pojo.Link">
+        update bl_link set version = version + 1
+        <if test="linkName != null and linkName != ''">
+            ,link_name = #{linkName}
+        </if>
+        <if test="linkUrl != null and linkUrl != ''">
+            ,link_url = #{linkUrl}
+        </if>
+        where link_id = #{linkId}
+        and version = #{version}
+    </update>
+    <delete id="delete">
+        update bl_link set version = version + 1,deleted = 1 where link_id = #{value}
+    </delete>
+    <select id="getLinkInfoById"  resultMap="BaseResultMap">
+        select
+        link_id,
+        link_name,
+        link_url,
+        version from bl_link
+        where link_id = #{value}
+    </select>
+    <select id="getAllLinkInfo" resultMap="BaseResultMap">
+        select
+        link_id,
+        link_name,
+        link_url,
+        created_time,
+        update_time
+        from bl_link where deleted = 0
+    </select>
+</mapper>

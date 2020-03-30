@@ -4,6 +4,8 @@ package com.lza.blog.mapper;
 import com.lza.blog.pojo.Link;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 
 /**
  * <p>
@@ -23,4 +25,31 @@ public interface LinkMapper {
      * @param link
      */
     void save(Link link);
+
+    /**
+     * 修改友情链接
+     * @param link
+     * @return
+     */
+    void updateByID(Link link);
+
+    /**
+     * 根据id查询
+     * @param id
+     * @return
+     */
+    Link getLinkInfoById(Integer id);
+
+    /**
+     * 查询所有
+     * @return
+     */
+    List<Link> getAllLinkInfo();
+
+    /**
+     * 根据id删除
+     * @param id
+     * @return
+     */
+    void delete(Integer id);
 }

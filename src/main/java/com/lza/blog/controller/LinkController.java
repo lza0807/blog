@@ -5,10 +5,9 @@ import com.lza.blog.pojo.Link;
 import com.lza.blog.service.LinkService;
 import com.lza.blog.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @Description: 友情链接
@@ -32,4 +31,48 @@ public class LinkController {
         this.linkService.save(link);
         return new Result<>(ResultEnum.SUCCESS.getCode(),"添加成功!");
     }
+
+    /**
+     * 修改友情链接
+     * @param link
+     * @return
+     */
+    @RequestMapping(value = "/update",method = RequestMethod.PUT)
+    public Result<Object> updateById(@RequestBody Link link){
+        this.linkService.updateById(link);
+        return new Result<>("修改成功！");
+    }
+
+    /**
+     * 根据id查询
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/getLinkInfoById/{id}",method = RequestMethod.GET)
+    public Result<Object> getLinkInfoById(@PathVariable Integer id){
+        Link link = this.linkService.getLinkInfoById(id);
+        return new Result<>(link);
+    }
+
+    /**
+     * 查询所有
+     * @return
+     */
+    @RequestMapping(value = "/getAllLinkInfo",method = RequestMethod.GET)
+    public Result<List<Link>> getAllLinkInfo(){
+        List<Link> links = this.linkService.getAllLinkInfo();
+        return new Result<>(links);
+    }
+
+    /**
+     * 根据id删除
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/delete/{id}",method = RequestMethod.DELETE)
+    public Result<Object> delete(@PathVariable Integer id){
+        this.linkService.delete(id);
+        return new Result<>("删除成功！");
+    }
+
 }
