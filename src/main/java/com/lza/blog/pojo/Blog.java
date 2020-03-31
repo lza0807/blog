@@ -59,7 +59,6 @@ public class Blog implements Serializable {
      */
     private Integer blogType;
 
-    private Type type;
 
     /**
      * 简介
