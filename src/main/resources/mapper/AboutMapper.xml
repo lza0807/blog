@@ -26,6 +26,76 @@
         enable,
         deleted
     </sql>
-
+    <insert id="save" parameterType="com.lza.blog.pojo.About">
+        insert into bl_about(about_title,about_content) values (#{aboutTitle},#{aboutContent})
+    </insert>
+    <update id="update" parameterType="com.lza.blog.pojo.About">
+        update bl_about set version = version + 1
+        <if test="aboutTitle!=null and aboutTitle != ''">
+            ,about_title = #{aboutTitle}
+        </if>
+        <if test="aboutContent!=null and aboutContent != ''">
+            ,about_content = #{aboutContent}
+        </if>
+        <if test="aboutRead!=null and aboutRead != ''">
+            ,about_read = #{aboutRead}
+        </if>
+        where about_id = #{aboutId} and version = #{version}
+    </update>
+    <update id="delete">
+        update bl_about set deleted = 1 where about_id = #{value}
+    </update>
+    <update id="enableState" parameterType="com.lza.blog.pojo.About">
+        update bl_about set version = version + 1,enable = #{enable}
+        where about_id = #{aboutId} and version = #{version}
+    </update>
+    <select id="get" resultMap="BaseResultMap">
+        select
+         about_id,
+        about_title,
+        about_content,
+        about_read,
+        created_time,
+        update_time,
+        version,
+        enable
+        from bl_about where about_id = #{aboutId} and deleted = 0
+    </select>
+    <select id="read" resultMap="BaseResultMap">
+        select
+        about_id,
+        about_title,
+        about_content,
+        about_read,
+        created_time,
+        update_time,
+        version,
+        from bl_about where enable = 1  and deleted = 0 limit 1
+    </select>
+    <select id="getByPage" parameterType="com.lza.blog.utils.Page" resultMap="BaseResultMap">
+        select
+        about_id,
+        about_title,
+        about_read,
+        created_time,
+        update_time,
+        enable
+        from bl_about where deleted = 0
+        <if test="params.aboutTitle!=null and aboutTitle !=''">
+            about_title = CONCAT('%',#{aboutTitle},'%')
+        </if>
+        <if test="sortColumn!=null and sortColumn!=''">
+            order by ${sortColumn} ${sortMethod}
+        </if>
+        limit #{index},#{pageSize}
+    </select>
+    <select id="getCountByPage" parameterType="com.lza.blog.utils.Page" resultType="java.lang.Integer">
+        select
+        count(*)
+        from bl_about where deleted = 0
+        <if test="params.aboutTitle!=null and aboutTitle !=''">
+            about_title = CONCAT('%',#{aboutTitle},'%')
+        </if>
+    </select>
 
 </mapper>
