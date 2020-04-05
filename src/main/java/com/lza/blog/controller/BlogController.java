@@ -91,7 +91,7 @@ public class BlogController {
         if (StringUtils.isNotBlank(sortColumn)){
             //排序列不为空
             String[] sortColumns = {"blog_goods","blog_read","blog_collection","type_name","blog_comment","created_time","update_time"};
-            List<String> sortList = Arrays.asList(sortColumn);
+            List<String> sortList = Arrays.asList(sortColumns);
             if (!sortList.contains(sortColumn.toLowerCase())){
                 return new Result<>(ResultEnum.PARAMS_ERROR.getCode(),"排序参数不合法!");
             }

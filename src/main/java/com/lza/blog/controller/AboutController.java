@@ -106,6 +106,15 @@ public class AboutController {
      */
     @RequestMapping(value = "/getByPage",method = RequestMethod.GET)
     public Result<Page<About>> getByPage(@RequestBody Page<About> page){
+        String sortColumn = page.getSortColumn();
+        if (StringUtils.isNotBlank(sortColumn)){
+            //排序列不为空
+            String[] sortColumns = {"about_read","created_time","update_time"};
+            List<String> sortList = Arrays.asList(sortColumns);
+            if (!sortList.contains(sortColumn.toLowerCase())){
+                return new Result<>(ResultEnum.PARAMS_ERROR.getCode(),"排序参数不合法!");
+            }
+        }
         page = this.aboutService.getByPage(page);
         return new Result<>(page);
     }
