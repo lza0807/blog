@@ -1,156 +1,117 @@
-2020-04-01 22:50:44.249 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
-2020-04-01 22:52:05.419 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
-2020-04-01 22:52:05.440 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
-2020-04-01 22:52:05.506 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
-2020-04-01 22:52:05.615 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:52:05.618 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 174(Long), {"code":20000,"data":{"token":"92DD1956E84E191C16E2247CF24491DF"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:52:05.710 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:53:55.058 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.AboutMapper.save.debug:159 -==>  Preparing: insert into bl_about( about_title,about_content) values (?,?) 
-2020-04-01 22:53:55.058 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.AboutMapper.save.debug:159 -==> Parameters: 测试1(String), 测试内容1(String)
-2020-04-01 22:53:55.292 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:53:55.292 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/save(String), [About(aboutId=null, aboutTitle=测试1, aboutContent=测试内容1, aboutRead=null, createdTime=null, updateTime=null, version=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: Field 'about_id' doesn't have a default value
-### The error may involve com.lza.blog.mapper.AboutMapper.save-Inline
-### Cause: java.sql.SQLException: Field 'about_id' doesn't have a default value
-; Field 'about_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'about_id' doesn't have a default value
-	at com.lza.blog.service.impl.AboutServiceImpl.save(AboutServiceImpl.java:42)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$399290fd.save(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$d71eb4a1.save(<generated>)
-	at com.lza.blog.controller.AboutController.save(AboutController.java:34)
-	at com.lza.blog.controller.AboutController$$FastClassBySpringCGLIB$$55e53f1b.invoke(<generated>)
+2020-04-05 14:50:40.733 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-04-05 14:51:52.424 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
+2020-04-05 14:51:52.449 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
+2020-04-05 14:51:52.519 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
+2020-04-05 14:51:52.644 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:51:52.646 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 190(Long), {"code":20000,"data":{"token":"6B7A15124DB243EABB8A2B0F062167E7"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:51:52.743 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:53:49.460 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:53:49.461 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'logUrl' in 'class com.lza.blog.utils.Page'
+	at com.lza.blog.service.impl.LogServiceImpl.getByPage(LogServiceImpl.java:46)
+	at com.lza.blog.controller.LogController.getByPage(LogController.java:41)
+	at com.lza.blog.controller.LogController$$FastClassBySpringCGLIB$$3f79a292.invoke(<generated>)
 	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
-	at com.lza.blog.controller.AboutController$$EnhancerBySpringCGLIB$$4f5d7f5c.save(<generated>)
-Caused by: java.sql.SQLException: Field 'about_id' doesn't have a default value
-(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:53:55.390 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:54:58.406 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.AboutMapper.save.debug:159 -==>  Preparing: insert into bl_about( about_title,about_content) values (?,?) 
-2020-04-01 22:54:58.407 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.AboutMapper.save.debug:159 -==> Parameters: 测试1(String), 测试内容1(String)
-2020-04-01 22:54:58.555 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:54:58.556 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/save(String), [About(aboutId=null, aboutTitle=测试1, aboutContent=测试内容1, aboutRead=null, createdTime=null, updateTime=null, version=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: Field 'about_id' doesn't have a default value
-### The error may involve com.lza.blog.mapper.AboutMapper.save-Inline
-### Cause: java.sql.SQLException: Field 'about_id' doesn't have a default value
-; Field 'about_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'about_id' doesn't have a default value
-	at com.lza.blog.service.impl.AboutServiceImpl.save(AboutServiceImpl.java:42)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$399290fd.save(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$d71eb4a1.save(<generated>)
-	at com.lza.blog.controller.AboutController.save(AboutController.java:34)
-	at com.lza.blog.controller.AboutController$$FastClassBySpringCGLIB$$55e53f1b.invoke(<generated>)
+	at com.lza.blog.controller.LogController$$EnhancerBySpringCGLIB$$6aa5d3.getByPage(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'logUrl' in 'class com.lza.blog.utils.Page'
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:53:49.552 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:55:59.413 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-04-05 14:56:10.345 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
+2020-04-05 14:56:10.370 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
+2020-04-05 14:56:10.434 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
+2020-04-05 14:56:10.544 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:56:10.547 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 176(Long), {"code":20000,"data":{"token":"A3163DED3B2F9D0E9E46ACE2721BBE9A"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:56:10.634 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:56:16.988 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?,? 
+2020-04-05 14:56:16.989 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 20(Integer)
+2020-04-05 14:56:17.048 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 20
+2020-04-05 14:56:17.095 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:56:17.096 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'logUrl' in 'class com.lza.blog.utils.Page'
+	at com.lza.blog.service.impl.LogServiceImpl.getByPage(LogServiceImpl.java:49)
+	at com.lza.blog.controller.LogController.getByPage(LogController.java:41)
+	at com.lza.blog.controller.LogController$$FastClassBySpringCGLIB$$3f79a292.invoke(<generated>)
 	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
-	at com.lza.blog.controller.AboutController$$EnhancerBySpringCGLIB$$4f5d7f5c.save(<generated>)
-Caused by: java.sql.SQLException: Field 'about_id' doesn't have a default value
-(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:54:58.672 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:56:04.437 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.AboutMapper.save.debug:159 -==>  Preparing: insert into bl_about( about_title,about_content) values (?,?) 
-2020-04-01 22:56:04.437 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.AboutMapper.save.debug:159 -==> Parameters: 测试1(String), 测试内容1(String)
-2020-04-01 22:56:04.597 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:56:04.598 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/save(String), [About(aboutId=null, aboutTitle=测试1, aboutContent=测试内容1, aboutRead=null, createdTime=null, updateTime=null, version=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: Field 'enable' doesn't have a default value
-### The error may involve com.lza.blog.mapper.AboutMapper.save-Inline
-### Cause: java.sql.SQLException: Field 'enable' doesn't have a default value
-; Field 'enable' doesn't have a default value; nested exception is java.sql.SQLException: Field 'enable' doesn't have a default value
-	at com.lza.blog.service.impl.AboutServiceImpl.save(AboutServiceImpl.java:42)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$399290fd.save(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$d71eb4a1.save(<generated>)
-	at com.lza.blog.controller.AboutController.save(AboutController.java:34)
-	at com.lza.blog.controller.AboutController$$FastClassBySpringCGLIB$$55e53f1b.invoke(<generated>)
+	at com.lza.blog.controller.LogController$$EnhancerBySpringCGLIB$$a2f9d1d4.getByPage(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'logUrl' in 'class com.lza.blog.utils.Page'
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:56:17.180 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:56:39.265 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?,? 
+2020-04-05 14:56:39.266 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 20(Integer)
+2020-04-05 14:56:39.337 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 20
+2020-04-05 14:56:39.417 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:56:39.418 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'logUrl' in 'class com.lza.blog.utils.Page'
+	at com.lza.blog.service.impl.LogServiceImpl.getByPage(LogServiceImpl.java:49)
+	at com.lza.blog.controller.LogController.getByPage(LogController.java:41)
+	at com.lza.blog.controller.LogController$$FastClassBySpringCGLIB$$3f79a292.invoke(<generated>)
 	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
-	at com.lza.blog.controller.AboutController$$EnhancerBySpringCGLIB$$4f5d7f5c.save(<generated>)
-Caused by: java.sql.SQLException: Field 'enable' doesn't have a default value
-(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:56:04.708 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:56:10.307 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.save.debug:159 -==>  Preparing: insert into bl_about( about_title,about_content) values (?,?) 
-2020-04-01 22:56:10.307 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.save.debug:159 -==> Parameters: 测试1(String), 测试内容1(String)
-2020-04-01 22:56:10.506 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:56:10.506 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/save(String), [About(aboutId=null, aboutTitle=测试1, aboutContent=测试内容1, aboutRead=null, createdTime=null, updateTime=null, version=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: Field 'enable' doesn't have a default value
-### The error may involve com.lza.blog.mapper.AboutMapper.save-Inline
-### Cause: java.sql.SQLException: Field 'enable' doesn't have a default value
-; Field 'enable' doesn't have a default value; nested exception is java.sql.SQLException: Field 'enable' doesn't have a default value
-	at com.lza.blog.service.impl.AboutServiceImpl.save(AboutServiceImpl.java:42)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$399290fd.save(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$d71eb4a1.save(<generated>)
-	at com.lza.blog.controller.AboutController.save(AboutController.java:34)
-	at com.lza.blog.controller.AboutController$$FastClassBySpringCGLIB$$55e53f1b.invoke(<generated>)
+	at com.lza.blog.controller.LogController$$EnhancerBySpringCGLIB$$a2f9d1d4.getByPage(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'logUrl' in 'class com.lza.blog.utils.Page'
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:56:39.513 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:57:24.888 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-04-05 14:57:34.940 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
+2020-04-05 14:57:34.963 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
+2020-04-05 14:57:35.032 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
+2020-04-05 14:57:35.140 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:57:35.142 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 186(Long), {"code":20000,"data":{"token":"D5A52C8FE8E50E0610770E05020E975F"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:57:35.229 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:57:43.605 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?,? 
+2020-04-05 14:57:43.606 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 20(Integer)
+2020-04-05 14:57:43.663 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 20
+2020-04-05 14:57:43.714 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_log 
+2020-04-05 14:57:43.714 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-04-05 14:57:43.810 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:57:43.811 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: A query was run and no Result Maps were found for the Mapped Statement 'com.lza.blog.mapper.LogMapper.getCountByPage'.  It's likely that neither a Result Type nor a Result Map was specified.
+	at com.lza.blog.service.impl.LogServiceImpl.getByPage(LogServiceImpl.java:49)
+	at com.lza.blog.controller.LogController.getByPage(LogController.java:41)
+	at com.lza.blog.controller.LogController$$FastClassBySpringCGLIB$$3f79a292.invoke(<generated>)
 	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
-	at com.lza.blog.controller.AboutController$$EnhancerBySpringCGLIB$$4f5d7f5c.save(<generated>)
-Caused by: java.sql.SQLException: Field 'enable' doesn't have a default value
-(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:56:10.628 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:56:59.860 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.AboutMapper.save.debug:159 -==>  Preparing: insert into bl_about( about_title,about_content) values (?,?) 
-2020-04-01 22:56:59.861 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.AboutMapper.save.debug:159 -==> Parameters: 测试1(String), 测试内容1(String)
-2020-04-01 22:57:00.101 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.AboutMapper.save.debug:159 -<==    Updates: 1
-2020-04-01 22:57:00.186 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:57:00.187 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/save(String), [About(aboutId=null, aboutTitle=测试1, aboutContent=测试内容1, aboutRead=null, createdTime=null, updateTime=null, version=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 298(Long), {"code":20000,"msg":"添加成功！"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:57:00.303 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:57:12.666 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.AboutMapper.save.debug:159 -==>  Preparing: insert into bl_about( about_title,about_content) values (?,?) 
-2020-04-01 22:57:12.667 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.AboutMapper.save.debug:159 -==> Parameters: 测试2(String), 测试内容2(String)
-2020-04-01 22:57:12.810 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.AboutMapper.save.debug:159 -<==    Updates: 1
-2020-04-01 22:57:12.911 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:57:12.911 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/save(String), [About(aboutId=null, aboutTitle=测试2, aboutContent=测试内容2, aboutRead=null, createdTime=null, updateTime=null, version=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 3013(Long), {"code":20000,"msg":"添加成功！"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:57:13.143 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:57:56.238 DEBUG [http-nio-1000-exec-6]com.lza.blog.mapper.AboutMapper.get.debug:159 -==>  Preparing: select about_id, about_title, about_content, about_read, created_time, update_time, version, enable from bl_about where about_id = ? and deleted = 0 
-2020-04-01 22:57:56.239 DEBUG [http-nio-1000-exec-6]com.lza.blog.mapper.AboutMapper.get.debug:159 -==> Parameters: 1(Integer)
-2020-04-01 22:57:56.297 DEBUG [http-nio-1000-exec-6]com.lza.blog.mapper.AboutMapper.get.debug:159 -<==      Total: 1
-2020-04-01 22:57:56.355 DEBUG [http-nio-1000-exec-6]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:57:56.356 DEBUG [http-nio-1000-exec-6]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/get/1(String), [1](String), 1(Integer), null, GET(String), 213(Long), {"code":20000,"data":{"aboutContent":"测试内容1","aboutId":1,"aboutRead":0,"aboutTitle":"测试1","createdTime":"2020-04-01 14:56:59","enable":0,"updateTime":"2020-04-01 14:56:59","version":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:57:56.479 DEBUG [http-nio-1000-exec-6]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:58:09.077 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.AboutMapper.get.debug:159 -==>  Preparing: select about_id, about_title, about_content, about_read, created_time, update_time, version, enable from bl_about where about_id = ? and deleted = 0 
-2020-04-01 22:58:09.078 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.AboutMapper.get.debug:159 -==> Parameters: 2(Integer)
-2020-04-01 22:58:09.132 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.AboutMapper.get.debug:159 -<==      Total: 1
-2020-04-01 22:58:09.182 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:58:09.183 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/get/2(String), [2](String), 1(Integer), org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: Field 'about_id' doesn't have a default value
-### The error may involve com.lza.blog.mapper.AboutMapper.save-Inline
-### Cause: java.sql.SQLException: Field 'about_id' doesn't have a default value
-; Field 'about_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'about_id' doesn't have a default value
-	at com.lza.blog.service.impl.AboutServiceImpl.save(AboutServiceImpl.java:42)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$399290fd.save(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$d71eb4a1.save(<generated>)
-	at com.lza.blog.controller.AboutController.save(AboutController.java:34)
-	at com.lza.blog.controller.AboutController$$FastClassBySpringCGLIB$$55e53f1b.invoke(<generated>)
+	at com.lza.blog.controller.LogController$$EnhancerBySpringCGLIB$$db397d91.getByPage(<generated>)
+Caused by: org.apache.ibatis.executor.ExecutorException: A query was run and no Result Maps were found for the Mapped Statement 'com.lza.blog.mapper.LogMapper.getCountByPage'.  It's likely that neither a Result Type nor a Result Map was specified.
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:57:43.901 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:59:27.928 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-04-05 14:59:35.545 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
+2020-04-05 14:59:35.565 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
+2020-04-05 14:59:35.633 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
+2020-04-05 14:59:35.749 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:59:35.751 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 179(Long), {"code":20000,"data":{"token":"ABD8D918F28E9FB783CE68913DE831F3"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:59:35.857 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 14:59:41.183 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?,? 
+2020-04-05 14:59:41.183 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 20(Integer)
+2020-04-05 14:59:41.238 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 20
+2020-04-05 14:59:41.286 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_log 
+2020-04-05 14:59:41.286 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-04-05 14:59:41.332 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-04-05 14:59:41.388 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 14:59:41.389 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, GET(String), 226(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-03-28 06:33:23","logId":1,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[1]","logResult":"{\"code\":20000,\"msg\":\"操作成功!\"}","logStatus":1,"logTime":13,"logUrl":"/test/textException/1"},{"createdTime":"2020-03-28 06:33:56","logId":2,"logIp":"127.0.0.1","logMessage":"com.lza.blog.exception.BlogException: 发生了异常\n\tat com.lza.blog.controller.TestController.testException(TestController.java:31)\n\tat com.lza.blog.controller.TestController$$FastClassBySpringCGLIB$$e118037c.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.TestController$$EnhancerBySpringCGLIB$$919b549.testException(<generated>)\n","logMethod":"GET","logParams":"[122]","logStatus":0,"logTime":0,"logUrl":"/test/textException/122"},{"createdTime":"2020-03-28 12:39:18","logId":3,"logIp":"127.0.0.1","logMessage":"com.lza.blog.exception.BlogException: 发生了异常\n\tat com.lza.blog.controller.TestController.testException(TestController.java:31)\n\tat com.lza.blog.controller.TestController$$FastClassBySpringCGLIB$$e118037c.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.TestController$$EnhancerBySpringCGLIB$$919b549.testException(<generated>)\n","logMethod":"GET","logParams":"[122]","logStatus":0,"logTime":0,"logUrl":"/test/textException/122"},{"createdTime":"2020-03-28 12:39:27","logId":4,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[1]","logResult":"{\"code\":20000,\"msg\":\"操作成功!\"}","logStatus":1,"logTime":2,"logUrl":"/test/textException/1"},{"createdTime":"2020-03-28 17:29:06","logId":5,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:29:53","logId":6,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:32:16","logId":7,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:32:41","logId":8,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:36:33","logId":9,"logIp":"127.0.0.1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:36)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$87d9a28c.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:43:53","logId":10,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"61DD974A49F7BEECD1F6A184D6010BDB\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":19840,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:44:28","logId":11,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"61DD974A49F7BEECD1F6A184D6010BDB\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":3772,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:45:37","logId":12,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"刘子安\",\"password\":\"21232f297a57a5a743894a0e4a801fc3\",\"signature\":\"加分\",\"username\":\"admin\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-03-29 09:38:56","logId":13,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"980868099BD0DEF6A4A983A3D7E8C466\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":173,"logUrl":"/admin/login"},{"createdTime":"2020-03-29 09:40:34","logId":14,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null, version=null)]","logResult":"{\"code\":40002,\"msg\":\"类型名称必填!\"}","logStatus":1,"logTime":3,"logUrl":"/type/save"},{"createdTime":"2020-03-29 09:41:11","logId":15,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null, version=null)]","logResult":"{\"code\":20000,\"msg\":\"添加成功!\"}","logStatus":1,"logTime":233,"logUrl":"/type/save"},{"createdTime":"2020-03-29 09:41:23","logId":16,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=springboot, typeBlogCount=null, enable=null, deleted=null, version=null)]","logResult":"{\"code\":20000,\"msg\":\"添加成功!\"}","logStatus":1,"logTime":228,"logUrl":"/type/save"},{"createdTime":"2020-03-29 09:42:46","logId":17,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=springcloud, typeBlogCount=null, enable=null, deleted=null, version=null)]","logResult":"{\"code\":20000,\"msg\":\"添加成功!\"}","logStatus":1,"logTime":233,"logUrl":"/type/save"},{"createdTime":"2020-03-29 09:42:51","logId":18,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=docker, typeBlogCount=null, enable=null, deleted=null, version=null)]","logResult":"{\"code\":20000,\"msg\":\"添加成功!\"}","logStatus":1,"logTime":240,"logUrl":"/type/save"},{"createdTime":"2020-03-29 09:44:57","logId":19,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"980868099BD0DEF6A4A983A3D7E8C466\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":93,"logUrl":"/admin/login"},{"createdTime":"2020-03-29 10:00:38","logId":20,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"D769F644513CBB31ABA15F02646E9CF1\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":5859,"logUrl":"/admin/login"}],"pageSize":20,"params":{},"sortMethod":"asc","totalCount":148,"totalPage":8},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 14:59:41.484 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 15:00:47.571 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.delete.debug:159 -==>  Preparing: delete from bl_log where log_id = ? 
+2020-04-05 15:00:47.572 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.delete.debug:159 -==> Parameters: 1(Integer)
+2020-04-05 15:00:47.664 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.delete.debug:159 -<==    Updates: 1
+2020-04-05 15:00:47.711 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 15:00:47.712 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/delete/1(String), [1](String), 1(Integer), null, DELETE(String), 143(Long), {"code":20000,"msg":"删除成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 15:00:47.809 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 15:04:42.849 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 15:04:42.850 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/deleteByIds(String), [[Ljava.lang.Integer;@4fedc6b0](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'ids' not found. Available parameters are [array]
+	at com.lza.blog.service.impl.LogServiceImpl.deleteByIds(LogServiceImpl.java:62)
+	at com.lza.blog.controller.LogController.deleteByIds(LogController.java:63)
+	at com.lza.blog.controller.LogController$$FastClassBySpringCGLIB$$3f79a292.invoke(<generated>)
 	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
-	at com.lza.blog.controller.AboutController$$EnhancerBySpringCGLIB$$4f5d7f5c.save(<generated>)
-Caused by: java.sql.SQLException: Field 'about_id' doesn't have a default value
-(String), GET(String), 9068(Long), {"code":20000,"data":{"aboutContent":"测试内容2","aboutId":2,"aboutRead":0,"aboutTitle":"测试2","createdTime":"2020-04-01 14:57:12","enable":0,"updateTime":"2020-04-01 14:57:12","version":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:58:09.338 DEBUG [http-nio-1000-exec-7]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 22:59:56.167 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.AboutMapper.get.debug:159 -==>  Preparing: select about_id, about_title, about_content, about_read, created_time, update_time, version, enable from bl_about where about_id = ? and deleted = 0 
-2020-04-01 22:59:56.168 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.AboutMapper.get.debug:159 -==> Parameters: 2(Integer)
-2020-04-01 22:59:56.213 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.AboutMapper.get.debug:159 -<==      Total: 1
-2020-04-01 22:59:56.262 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 22:59:56.263 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/get/2(String), [2](String), 1(Integer), null, GET(String), 96(Long), {"code":20000,"data":{"aboutContent":"测试内容2","aboutId":2,"aboutRead":0,"aboutTitle":"测试2","createdTime":"2020-04-01 14:57:12","enable":0,"updateTime":"2020-04-01 14:57:12","version":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 22:59:56.374 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
-2020-04-01 23:01:24.644 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.getByPage.debug:159 -==>  Preparing: select about_id, about_title, about_read, created_time, update_time, enable from bl_about where deleted = 0 limit ?,? 
-2020-04-01 23:01:24.644 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 20(Integer)
-2020-04-01 23:01:24.694 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.getByPage.debug:159 -<==      Total: 2
-2020-04-01 23:01:24.747 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_about where deleted = 0 
-2020-04-01 23:01:24.748 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.getCountByPage.debug:159 -==> Parameters: 
-2020-04-01 23:01:24.796 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AboutMapper.getCountByPage.debug:159 -<==      Total: 1
-2020-04-01 23:01:24.849 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
-2020-04-01 23:01:24.850 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /about/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: Field 'enable' doesn't have a default value
-### The error may involve com.lza.blog.mapper.AboutMapper.save-Inline
-### Cause: java.sql.SQLException: Field 'enable' doesn't have a default value
-; Field 'enable' doesn't have a default value; nested exception is java.sql.SQLException: Field 'enable' doesn't have a default value
-	at com.lza.blog.service.impl.AboutServiceImpl.save(AboutServiceImpl.java:42)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$399290fd.save(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$FastClassBySpringCGLIB$$5cf1c359.invoke(<generated>)
-	at com.lza.blog.service.impl.AboutServiceImpl$$EnhancerBySpringCGLIB$$d71eb4a1.save(<generated>)
-	at com.lza.blog.controller.AboutController.save(AboutController.java:34)
-	at com.lza.blog.controller.AboutController$$FastClassBySpringCGLIB$$55e53f1b.invoke(<generated>)
-	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
-	at com.lza.blog.controller.AboutController$$EnhancerBySpringCGLIB$$4f5d7f5c.save(<generated>)
-Caused by: java.sql.SQLException: Field 'enable' doesn't have a default value
-(String), GET(String), 2859(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"aboutId":1,"aboutRead":0,"aboutTitle":"测试1","createdTime":"2020-04-01 14:56:59","enable":0,"updateTime":"2020-04-01 14:56:59"},{"aboutId":2,"aboutRead":0,"aboutTitle":"测试2","createdTime":"2020-04-01 14:57:12","enable":0,"updateTime":"2020-04-01 14:57:12"}],"pageSize":20,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
-2020-04-01 23:01:24.944 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+	at com.lza.blog.controller.LogController$$EnhancerBySpringCGLIB$$e4a0254.deleteByIds(<generated>)
+Caused by: org.apache.ibatis.binding.BindingException: Parameter 'ids' not found. Available parameters are [array]
+(String), PUT(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-05 15:04:42.944 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 15:06:32.855 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-04-05 15:06:44.843 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
+2020-04-05 15:06:44.865 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
+2020-04-05 15:06:44.928 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
+2020-04-05 15:06:45.042 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 15:06:45.044 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 176(Long), {"code":20000,"data":{"token":"1DCE9542B1DA94BE35B9A3AE35525986"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 15:06:45.137 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-05 15:07:00.187 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.deleteByIds.debug:159 -==>  Preparing: delete from bl_log where log_id in ( ? , ? , ? ) 
+2020-04-05 15:07:00.188 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.deleteByIds.debug:159 -==> Parameters: 1(Integer), 2(Integer), 3(Integer)
+2020-04-05 15:07:00.279 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.deleteByIds.debug:159 -<==    Updates: 2
+2020-04-05 15:07:00.327 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-05 15:07:00.328 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /log/deleteByIds(String), [[Ljava.lang.Integer;@75059e24](String), 1(Integer), null, PUT(String), 8986(Long), {"code":20000,"msg":"批量删除成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-05 15:07:00.417 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1

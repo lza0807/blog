@@ -2,6 +2,8 @@ package com.lza.blog.service;
 
 
 import com.lza.blog.pojo.Log;
+import com.lza.blog.utils.Page;
+import com.lza.blog.vo.BlogVo;
 
 /**
  * <p>
@@ -21,4 +23,25 @@ public interface LogService {
      * @param logger logger
      */
     void logSave(Log logger);
+
+    /**
+     * 分页查询
+     * @param page
+     * @return
+     */
+    Page<BlogVo> getByPage(Page<BlogVo> page);
+
+    /**
+     * 根据id删除
+     * @param id
+     * @return
+     */
+    void delete(Integer id);
+
+    /**
+     * 批量删除
+     * @param ids
+     * @return
+     */
+    void deleteByIds(Integer[] ids);
 }
