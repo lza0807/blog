@@ -3116,3 +3116,285 @@ Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityMana
 2020-04-06 21:21:43.081 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
 2020-04-06 21:21:43.081 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, GET(String), 454(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"周杰伦","cover":"封面","createdTime":"2020-04-06 12:45:45","enable":1,"id":1,"name":"算什么男人","url":"地址"},{"artist":"周杰伦","cover":"封面","createdTime":"2020-04-06 12:45:56","enable":1,"id":2,"name":"晴天","url":"地址"}],"pageSize":20,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
 2020-04-06 21:21:43.252 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 21:51:51.174 INFO  [Thread-31]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-04-06 22:08:29.786 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 24020 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-04-06 22:08:29.794 DEBUG [main]com.lza.blog.BlogApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-04-06 22:08:29.795 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-04-06 22:08:30.905 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.lza.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$744ceddd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:30.952 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:30.962 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d5006fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:30.967 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$3427ab3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:30.970 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-04-06 22:08:31.023 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:31.037 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:31.056 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.127 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-04-06 22:08:35.128 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.199 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.427 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.435 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.443 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.447 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.448 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.lza.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.449 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.lza.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.493 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.518 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-06 22:08:35.858 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-04-06 22:08:35.882 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-04-06 22:08:35.891 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-06 22:08:35.891 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 22:08:36.058 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-06 22:08:36.058 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 6188 ms
+2020-04-06 22:08:37.371 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-04-06 22:08:37.397 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-04-06 22:08:37.400 INFO  [main]com.lza.blog.BlogApplication.logStarted:59 -Started BlogApplication in 8.507 seconds (JVM running for 10.047)
+2020-04-06 22:09:04.800 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 22:09:04.800 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-06 22:09:04.816 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 16 ms
+2020-04-06 22:09:04.928 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/login
+2020-04-06 22:09:04.930 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-06 22:09:04.935 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:09:04.937 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.login
+2020-04-06 22:09:04.939 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]
+2020-04-06 22:09:05.016 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==>  Preparing: select name,header,signature,comment,username,password from bl_admin where username = ? 
+2020-04-06 22:09:05.044 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -==> Parameters: admin(String)
+2020-04-06 22:09:05.122 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.AdminMapper.getUserByName.debug:159 -<==      Total: 1
+2020-04-06 22:09:05.135 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 207
+2020-04-06 22:09:05.200 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"102C1C1BD0896081CF8D8DBCAA1BBD0B"},"msg":"操作成功!"}
+2020-04-06 22:09:05.248 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:09:05.251 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 207(Long), {"code":20000,"data":{"token":"102C1C1BD0896081CF8D8DBCAA1BBD0B"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:09:05.352 DEBUG [http-nio-1000-exec-1]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 22:11:18.106 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /user/save
+2020-04-06 22:11:18.107 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-06 22:11:18.107 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:11:18.107 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UserController.save
+2020-04-06 22:11:18.107 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[User(userId=null, username=liuzian, password=ee461d1874c210e91b219ea2ffcbb5bd, name=liuzian, sex=1, header=无, nickname=昵称刘子安, userEmail=2282816304@qq.com, createdTime=null, updateTime=null, version=null, deleted=null)]
+2020-04-06 22:11:18.167 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.UserMapper.save.debug:159 -==>  Preparing: insert into bl_user( username, password, name, sex, header, nickname, user_email ) values ( ?,?,?,?,?,?,? ) 
+2020-04-06 22:11:18.168 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.UserMapper.save.debug:159 -==> Parameters: liuzian(String), ee461d1874c210e91b219ea2ffcbb5bd(String), liuzian(String), 1(Integer), 无(String), 昵称刘子安(String), 2282816304@qq.com(String)
+2020-04-06 22:11:18.269 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.UserMapper.save.debug:159 -<==    Updates: 1
+2020-04-06 22:11:18.269 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 163
+2020-04-06 22:11:18.270 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"添加成功！"}
+2020-04-06 22:11:18.319 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:11:18.324 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /user/save(String), [User(userId=null, username=liuzian, password=ee461d1874c210e91b219ea2ffcbb5bd, name=liuzian, sex=1, header=无, nickname=昵称刘子安, userEmail=2282816304@qq.com, createdTime=null, updateTime=null, version=null, deleted=null)](String), 1(Integer), null, POST(String), 163(Long), {"code":20000,"msg":"添加成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:11:18.418 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 22:12:20.635 WARN  [http-nio-1000-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 3]]
+2020-04-06 22:12:20.645 ERROR [http-nio-1000-exec-8]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.lza.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:29)
+	at com.lza.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:137)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-06 22:12:20.646 ERROR [http-nio-1000-exec-8]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.lza.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:29)
+	at com.lza.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:137)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2020-04-06 22:12:28.283 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /user/update
+2020-04-06 22:12:28.283 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : PUT
+2020-04-06 22:12:28.284 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:12:28.284 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UserController.update
+2020-04-06 22:12:28.284 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[User(userId=3, username=liuzian111, password=ee461d1874c210e91b219ea2ffcbb5bd, name=liuzian, sex=1, header=无, nickname=昵称刘子安, userEmail=2282816304@qq.com, createdTime=null, updateTime=null, version=null, deleted=null)]
+2020-04-06 22:12:28.367 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.UserMapper.update.debug:159 -==>  Preparing: update bl_user set version = version + 1 ,username = ? ,password = ? ,name = ? ,sex = ? ,header = ? ,nickname = ? ,user_email = ? where user_id = ? and deleted = 0 
+2020-04-06 22:12:28.367 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.UserMapper.update.debug:159 -==> Parameters: liuzian111(String), ee461d1874c210e91b219ea2ffcbb5bd(String), liuzian(String), 1(Integer), 无(String), 昵称刘子安(String), 2282816304@qq.com(String), 3(Integer)
+2020-04-06 22:12:28.461 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.UserMapper.update.debug:159 -<==    Updates: 1
+2020-04-06 22:12:28.462 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 179
+2020-04-06 22:12:28.462 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"修改成功！"}
+2020-04-06 22:12:28.532 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:12:28.533 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /user/update(String), [User(userId=3, username=liuzian111, password=ee461d1874c210e91b219ea2ffcbb5bd, name=liuzian, sex=1, header=无, nickname=昵称刘子安, userEmail=2282816304@qq.com, createdTime=null, updateTime=null, version=null, deleted=null)](String), 1(Integer), null, PUT(String), 179(Long), {"code":20000,"msg":"修改成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:12:28.633 DEBUG [http-nio-1000-exec-10]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 22:12:36.183 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /user/update
+2020-04-06 22:12:36.184 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : PUT
+2020-04-06 22:12:36.184 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:12:36.184 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UserController.update
+2020-04-06 22:12:36.184 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[User(userId=3, username=liuzian111, password=ee461d1874c210e91b219ea2ffcbb5bd, name=liuzian1, sex=1, header=无, nickname=昵称刘子安, userEmail=2282816304@qq.com, createdTime=null, updateTime=null, version=null, deleted=null)]
+2020-04-06 22:12:36.233 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.UserMapper.update.debug:159 -==>  Preparing: update bl_user set version = version + 1 ,username = ? ,password = ? ,name = ? ,sex = ? ,header = ? ,nickname = ? ,user_email = ? where user_id = ? and deleted = 0 
+2020-04-06 22:12:36.234 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.UserMapper.update.debug:159 -==> Parameters: liuzian111(String), ee461d1874c210e91b219ea2ffcbb5bd(String), liuzian1(String), 1(Integer), 无(String), 昵称刘子安(String), 2282816304@qq.com(String), 3(Integer)
+2020-04-06 22:12:36.333 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.UserMapper.update.debug:159 -<==    Updates: 1
+2020-04-06 22:12:36.334 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 151
+2020-04-06 22:12:36.334 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"修改成功！"}
+2020-04-06 22:12:36.381 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:12:36.382 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /user/update(String), [User(userId=3, username=liuzian111, password=ee461d1874c210e91b219ea2ffcbb5bd, name=liuzian1, sex=1, header=无, nickname=昵称刘子安, userEmail=2282816304@qq.com, createdTime=null, updateTime=null, version=null, deleted=null)](String), 1(Integer), null, PUT(String), 151(Long), {"code":20000,"msg":"修改成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:12:36.476 DEBUG [http-nio-1000-exec-2]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 22:13:10.713 WARN  [http-nio-1000-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-04-06 22:13:10.714 ERROR [http-nio-1000-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.lza.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:29)
+	at com.lza.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:137)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-06 22:13:10.715 ERROR [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.lza.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:29)
+	at com.lza.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:137)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2020-04-06 22:13:14.100 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /user/get/3
+2020-04-06 22:13:14.100 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-06 22:13:14.100 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:13:14.100 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UserController.getById
+2020-04-06 22:13:14.101 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[3]
+2020-04-06 22:13:14.152 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.UserMapper.getById.debug:159 -==>  Preparing: select user_id, username, name, sex, header, nickname, user_email, created_time, update_time, version from bl_user where user_id = ? and deleted = 0 and version = ? 
+2020-04-06 22:13:14.152 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.UserMapper.getById.debug:159 -==> Parameters: 3(Integer), 3(Integer)
+2020-04-06 22:13:14.204 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.UserMapper.getById.debug:159 -<==      Total: 1
+2020-04-06 22:13:14.205 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 105
+2020-04-06 22:13:14.209 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"createdTime":"2020-04-06 14:11:18","header":"无","name":"liuzian1","nickname":"昵称刘子安","sex":1,"updateTime":"2020-04-06 14:12:36","userEmail":"2282816304@qq.com","userId":3,"username":"liuzian111","version":3},"msg":"操作成功!"}
+2020-04-06 22:13:14.260 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:13:14.260 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /user/get/3(String), [3](String), 1(Integer), null, GET(String), 105(Long), {"code":20000,"data":{"createdTime":"2020-04-06 14:11:18","header":"无","name":"liuzian1","nickname":"昵称刘子安","sex":1,"updateTime":"2020-04-06 14:12:36","userEmail":"2282816304@qq.com","userId":3,"username":"liuzian111","version":3},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:13:14.357 DEBUG [http-nio-1000-exec-3]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 22:14:00.325 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /user/getByPage
+2020-04-06 22:14:00.326 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-06 22:14:00.326 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:14:00.326 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UserController.getByPage
+2020-04-06 22:14:00.326 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-06 22:14:00.452 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.UserMapper.getByPage.debug:159 -==>  Preparing: select user_id, username, name, sex, header, nickname, user_email, created_time, update_time from bl_user where deleted = 0 limit ?, ? 
+2020-04-06 22:14:00.453 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.UserMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 20(Integer)
+2020-04-06 22:14:00.530 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.UserMapper.getByPage.debug:159 -<==      Total: 1
+2020-04-06 22:14:00.652 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.UserMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_user where deleted = 0 
+2020-04-06 22:14:00.652 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.UserMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-04-06 22:14:00.718 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.UserMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-04-06 22:14:00.719 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 394
+2020-04-06 22:14:00.721 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-04-06 14:11:18","header":"无","name":"liuzian1","nickname":"昵称刘子安","sex":1,"updateTime":"2020-04-06 14:12:36","userEmail":"2282816304@qq.com","userId":3,"username":"liuzian111"}],"pageSize":20,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功!"}
+2020-04-06 22:14:01.066 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:14:01.067 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /user/getByPage(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, GET(String), 394(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-04-06 14:11:18","header":"无","name":"liuzian1","nickname":"昵称刘子安","sex":1,"updateTime":"2020-04-06 14:12:36","userEmail":"2282816304@qq.com","userId":3,"username":"liuzian111"}],"pageSize":20,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:14:01.184 DEBUG [http-nio-1000-exec-4]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
+2020-04-06 22:14:39.052 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /user/delete/3
+2020-04-06 22:14:39.053 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : DELETE
+2020-04-06 22:14:39.053 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 0:0:0:0:0:0:0:1
+2020-04-06 22:14:39.053 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UserController.delete
+2020-04-06 22:14:39.053 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[3]
+2020-04-06 22:14:39.103 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.UserMapper.delete.debug:159 -==>  Preparing: update bl_user set deleted = 1 and user_id = ? 
+2020-04-06 22:14:39.104 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.UserMapper.delete.debug:159 -==> Parameters: 3(Integer)
+2020-04-06 22:14:39.198 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.UserMapper.delete.debug:159 -<==    Updates: 1
+2020-04-06 22:14:39.199 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 147
+2020-04-06 22:14:39.199 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"删除成功!"}
+2020-04-06 22:14:39.246 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip) values (?,?,?,?,?,?,?,?) 
+2020-04-06 22:14:39.246 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -==> Parameters: /user/delete/3(String), [3](String), 1(Integer), null, DELETE(String), 147(Long), {"code":20000,"msg":"删除成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-06 22:14:39.344 DEBUG [http-nio-1000-exec-5]com.lza.blog.mapper.LogMapper.logSave.debug:159 -<==    Updates: 1
