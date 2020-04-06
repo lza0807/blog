@@ -17,7 +17,7 @@ public class Music {
     private String cover;
     private String lrc;
     private String createdTime;
-    private Integer enabled;
+    private Integer enable;
     private Integer deleted;
 
 }

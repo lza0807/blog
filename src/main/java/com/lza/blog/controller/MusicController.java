@@ -1,8 +1,8 @@
 package com.lza.blog.controller;
 
 import com.lza.blog.enums.ResultEnum;
-import com.lza.blog.pojo.About;
-import com.lza.blog.service.AboutService;
+import com.lza.blog.pojo.Music;
+import com.lza.blog.service.MusicService;
 import com.lza.blog.utils.Page;
 import com.lza.blog.utils.Result;
 import com.lza.blog.utils.StringUtils;
@@ -13,35 +13,35 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Description: 关于 ’我‘
+ * @Description: 音乐
  * @Author: liuzian
  * @Date: Create in 22:58 2020/3/31
  */
 @RestController
-@RequestMapping("/about")
+@RequestMapping("/music")
 public class MusicController {
     @Autowired
-    private AboutService aboutService;
+    private MusicService MusicService;
 
     /**
      * 添加
-     * @param about
+     * @param music
      * @return
      */
     @RequestMapping(value = "/save",method = RequestMethod.POST)
-    public Result<Object> save(@RequestBody About about){
-        aboutService.save(about);
+    public Result<Object> save(@RequestBody Music music){
+        MusicService.save(music);
         return new Result<>("添加成功！");
     }
 
     /**
      * 修改
-     * @param about
+     * @param music
      * @return
      */
     @RequestMapping(value = "/update",method = RequestMethod.PUT)
-    public Result<Object> update(@RequestBody About about){
-        aboutService.update(about);
+    public Result<Object> update(@RequestBody Music music){
+        MusicService.update(music);
         return new Result<>("修改成功！");
     }
     /**
@@ -50,20 +50,11 @@ public class MusicController {
      * @return
      */
     @RequestMapping(value = "/get/{id}",method = RequestMethod.GET)
-    public Result<About> get(@PathVariable Integer id){
-         About about =aboutService.get(id);
-        return new Result<>(about);
+    public Result<Music> getById(@PathVariable Integer id){
+         Music Music =MusicService.getById(id);
+        return new Result<>(Music);
     }
 
-    /**
-     * 阅读关于我
-     * @return
-     */
-    @RequestMapping(value = "read",method = RequestMethod.GET)
-    public Result<About> read(){
-        About about =aboutService.read();
-        return new Result<>(about);
-    }
 
     /**
      * 根据id删除
@@ -72,29 +63,29 @@ public class MusicController {
      */
     @RequestMapping(value = "/delete/{id}",method = RequestMethod.DELETE)
     public Result<Object> delete(@PathVariable Integer id){
-        aboutService.delete(id);
+        MusicService.delete(id);
         return new Result<>("删除成功!");
     }
 
     /**
-     * 启用关于我的
+     * 启用
      * @param id
      * @return
      */
     @RequestMapping(value = "/enableById/{id}",method = RequestMethod.PUT)
     public Result<Object> enableById(@PathVariable Integer id){
-        aboutService.enableById(id);
+        MusicService.enableById(id);
         return new Result<>("启用成功!");
     }
 
     /**
-     * 禁用关于我的
+     * 禁用
      * @param id
      * @return
      */
     @RequestMapping(value = "/disable/{id}",method = RequestMethod.PUT)
     public Result<Object> disable(@PathVariable Integer id){
-        aboutService.disable(id);
+        MusicService.disable(id);
         return new Result<>("禁用成功!");
     }
 
@@ -104,17 +95,17 @@ public class MusicController {
      * @return
      */
     @RequestMapping(value = "/getByPage",method = RequestMethod.GET)
-    public Result<Page<About>> getByPage(@RequestBody Page<About> page){
+    public Result<Page<Music>> getByPage(@RequestBody Page<Music> page){
         String sortColumn = page.getSortColumn();
         if (StringUtils.isNotBlank(sortColumn)){
             //排序列不为空
-            String[] sortColumns = {"about_read","created_time","update_time"};
+            String[] sortColumns = {"artist","created_time","enabled"};
             List<String> sortList = Arrays.asList(sortColumns);
             if (!sortList.contains(sortColumn.toLowerCase())){
                 return new Result<>(ResultEnum.PARAMS_ERROR.getCode(),"排序参数不合法!");
             }
         }
-        page = this.aboutService.getByPage(page);
+        page = this.MusicService.getByPage(page);
         return new Result<>(page);
     }
 
