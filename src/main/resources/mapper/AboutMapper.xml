@@ -40,6 +40,9 @@
         <if test="aboutRead!=null and aboutRead != ''">
             ,about_read = #{aboutRead}
         </if>
+        <if test="enable!=null">
+            ,enable = #{enable}
+        </if>
         where about_id = #{aboutId} and version = #{version}
     </update>
     <update id="delete">
@@ -69,7 +72,7 @@
         about_read,
         created_time,
         update_time,
-        version,
+        version
         from bl_about where enable = 1  and deleted = 0 limit 1
     </select>
     <select id="getByPage" parameterType="com.lza.blog.utils.Page" resultMap="BaseResultMap">

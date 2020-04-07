@@ -60,7 +60,7 @@ public class TypeController {
     /**
      * 根据ID查询分类信息
      */
-    @RequestMapping(value = "/getTypeInfoById/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/get/{id}", method = RequestMethod.GET)
     public Result<Type> getTypeInfoById(@PathVariable Integer id) {
         Type type = typeService.getTypeInfoById(id);
         return new Result<>(type);
@@ -69,7 +69,7 @@ public class TypeController {
     /**
      * 根据ID更新分类
      */
-    @RequestMapping(value = "/updateTypeById", method = RequestMethod.PUT)
+    @RequestMapping(value = "/update", method = RequestMethod.PUT)
     public Result<Object> updateTypeById(@RequestBody Type type) {
         typeService.updateTypeById(type);
         return new Result<>("更新成功!");
@@ -82,7 +82,7 @@ public class TypeController {
      * @param id
      * @return
      */
-    @RequestMapping(value = "/isEnable/{id}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/enable/{id}", method = RequestMethod.PUT)
     public Result<Object> isEnable(@PathVariable Integer id) {
         typeService.isEnable(id);
         return new Result<>("已启用!");

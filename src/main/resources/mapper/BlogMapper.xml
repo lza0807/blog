@@ -80,13 +80,13 @@
         where blog_id = #{blogId} and version = #{version}
     </update>
     <update id="delete">
-        update bl_blog set deleted = 1  and blog_id = #{value}
+        update bl_blog set deleted = 1  where blog_id = #{id}
     </update>
     <select id="getBlogInfoById" resultMap="BaseResultMap">
         select
         blog_id, blog_title, blog_content, blog_goods, blog_read, blog_collection, blog_type,
         blog_remark, blog_comment, blog_source, created_time,version
-        from bl_blog where deleted = 0 and blog_id = #{value}
+        from bl_blog where deleted = 0 and blog_id = #{id}
     </select>
     <select id="getByPage" resultMap="VoResultMap">
         select
@@ -96,7 +96,7 @@
         on b.blog_type = t.type_id
         where  b.deleted = 0 and t.deleted = 0
         <if test="params.blogTitle!=null and params.blogTitle != ''">
-            and blog_title like CONCAT('%',#{blogTitle},'%')
+            and blog_title like CONCAT('%',#{params.blogTitle},'%')
         </if>
         <if test="params.typeId!=null and params.typeId != ''">
             and type_id = #{params.typeId}
@@ -113,7 +113,7 @@
         on b.blog_type = t.type_id
         where  b.deleted = 0 and t.deleted = 0
         <if test="params.blogTitle!=null and params.blogTitle != ''">
-            and blog_title like CONCAT('%',#{blogTitle},'%')
+            and blog_title like CONCAT('%',#{params.blogTitle},'%')
         </if>
         <if test="params.typeId!=null and params.typeId != ''">
             and type_id = #{params.typeId}

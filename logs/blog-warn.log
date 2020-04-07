@@ -1,11 +1,56 @@
-2020-04-06 20:44:41.051 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /music/save
-2020-04-06 20:46:40.264 WARN  [http-nio-1000-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
-2020-04-06 20:51:29.828 WARN  [http-nio-1000-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 3, column: 3]]
-2020-04-06 20:52:04.254 WARN  [http-nio-1000-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 3, column: 3]]
-2020-04-06 20:52:08.141 WARN  [http-nio-1000-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 3, column: 3]]
-2020-04-06 20:52:26.452 WARN  [http-nio-1000-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 3, column: 3]]
-2020-04-06 21:13:54.152 WARN  [http-nio-1000-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-04-07 10:17:40.105 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp;jsessionid=59E3C557E9222F6A908C206E7173076B
+2020-04-07 10:17:50.728 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:17:59.287 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:18:07.852 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:19:03.209 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:19:06.591 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:19:07.221 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:19:07.803 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:22:43.081 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:22:50.872 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:51:44.151 WARN  [http-nio-1000-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 10:51:49.245 WARN  [http-nio-1000-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 10:51:53.780 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /admin/getAdmin
+2020-04-07 10:51:55.435 WARN  [http-nio-1000-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 10:51:58.344 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getByPage
+2020-04-07 10:52:06.010 WARN  [http-nio-1000-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 10:52:17.077 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /link/list
+2020-04-07 10:52:49.618 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /type/enable/6
+2020-04-07 10:53:00.439 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /type/enable/6
+2020-04-07 10:53:39.920 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /type/enable/7
+2020-04-07 10:54:50.365 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 10:55:11.922 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /type/get/7
+2020-04-07 10:58:28.616 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /type/get/6
+2020-04-07 11:01:28.868 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 11:01:31.880 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /type/getList
+2020-04-07 11:01:45.299 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /type/get/6
+2020-04-07 11:03:48.726 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 11:04:03.872 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /type/update
+2020-04-07 11:05:47.691 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 11:06:10.498 WARN  [http-nio-1000-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 11:06:38.287 WARN  [http-nio-1000-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 11:07:51.149 WARN  [http-nio-1000-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 11:08:54.191 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 11:09:56.692 WARN  [http-nio-1000-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 11:10:42.158 WARN  [http-nio-1000-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 11:10:51.953 WARN  [http-nio-1000-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-07 11:11:51.164 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 11:26:41.688 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /upload/uploadImage
+2020-04-07 11:45:12.512 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 11:52:25.853 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /about/enable/1
+2020-04-07 11:52:36.889 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /about/enable/1
+2020-04-07 11:54:23.552 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:41:13.301 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:41:17.877 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:42:55.902 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:44:13.670 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:48:49.355 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:52:44.392 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 14:52:47.664 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 15:07:14.740 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /admin/getAdmin
+2020-04-07 15:07:23.954 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /upload/uploadImage
+2020-04-07 15:07:25.481 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getByPage
+2020-04-07 15:07:40.766 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /logout
+2020-04-07 15:22:48.584 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 15:22:51.262 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-07 15:23:03.020 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp

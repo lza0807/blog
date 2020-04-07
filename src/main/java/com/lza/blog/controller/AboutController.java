@@ -82,7 +82,7 @@ public class AboutController {
      * @param id
      * @return
      */
-    @RequestMapping(value = "/enableById/{id}",method = RequestMethod.PUT)
+    @RequestMapping(value = "/enable/{id}",method = RequestMethod.PUT)
     public Result<Object> enableById(@PathVariable Integer id){
         aboutService.enableById(id);
         return new Result<>("启用成功!");
@@ -104,7 +104,7 @@ public class AboutController {
      * @param page
      * @return
      */
-    @RequestMapping(value = "/getByPage",method = RequestMethod.GET)
+    @RequestMapping(value = "/getByPage",method = RequestMethod.POST)
     public Result<Page<About>> getByPage(@RequestBody Page<About> page){
         String sortColumn = page.getSortColumn();
         if (StringUtils.isNotBlank(sortColumn)){
