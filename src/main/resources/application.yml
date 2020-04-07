@@ -18,6 +18,10 @@ spring:
       testOnReturn: false
       timeBetweenEvictionRunsMillis: 60000
       minEvictableIdleTimeMillis: 300000
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
 fdfs:
   so-timeout: 2500
   connect-timeout: 600
@@ -25,9 +29,9 @@ fdfs:
     width: 100
     height: 100
   tracker-list:
-    - 47.102.115.146:22122
+    - 139.9.130.249:22122
 upload:
-  base-url: http://47.102.115.146/
+  base-url: http://139.9.130.249/
   allow-types:
     - image/jpeg
     - image/png
