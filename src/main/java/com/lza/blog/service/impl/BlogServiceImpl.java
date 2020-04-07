@@ -42,8 +42,14 @@ public class BlogServiceImpl implements BlogService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void save(Blog blog) {
-        blog.setBlogId(idWorker.nextId()+"");
+        blog.setBlogId(idWorker.nextId() + "");
         this.blogMapper.save(blog);
+
+        //取出博客对应分类id
+        Integer blogType = blog.getBlogType();
+        Type type = typeMapper.getTypeInfoById(blogType);
+        type.setTypeBlogCount(type.getTypeBlogCount() + 1);
+        typeMapper.updateTypeById(type);
     }
 
     @Override
@@ -52,12 +58,30 @@ public class BlogServiceImpl implements BlogService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void updateBlogInfoById(Blog blog) {
-        this.blogMapper.updateBlogInfoByid(blog);
+        //更新博客的时候,分类修改了的话,旧的博客数 -1,新的 +1
+        Blog oldBlog = blogMapper.getBlogInfoById(blog.getBlogId());
+        blogMapper.updateBlogInfoByid(blog);
+        Integer oldTypeId = oldBlog.getBlogType();
+        Integer newTypeId = blog.getBlogType();
+        if (!oldTypeId.equals(newTypeId)) {
+            //证明分类是被修改了的,旧的那个博客数 -1
+            Type oldType = typeMapper.getTypeInfoById(oldTypeId);
+            oldType.setTypeBlogCount(oldType.getTypeBlogCount() - 1);
+            typeMapper.updateTypeById(oldType);
+            //新的+1
+            Type newType = typeMapper.getTypeInfoById(newTypeId);
+            newType.setTypeBlogCount(newType.getTypeBlogCount() + 1);
+            typeMapper.updateTypeById(newType);
+        }
+
+
     }
 
     /**
      * 添加阅读数
+     *
      * @param id id
      * @return sa
      */
@@ -66,7 +90,7 @@ public class BlogServiceImpl implements BlogService {
     public BlogVo readById(String id) {
         //没点击一次阅读，阅读数都加一
         Blog blog = this.blogMapper.getBlogInfoById(id);
-        blog.setBlogRead(blog.getBlogRead()+1);
+        blog.setBlogRead(blog.getBlogRead() + 1);
         blogMapper.updateBlogInfoByid(blog);
         //将blog转blogVo
         BlogVo blogVo = new BlogVo();
@@ -79,8 +103,9 @@ public class BlogServiceImpl implements BlogService {
 
     /**
      * 根据id删除博客
+     *
      * @param id id
-     * @return  Result<Object>
+     * @return Result<Object>
      */
     @Override
     @Transactional(rollbackFor = Exception.class)
