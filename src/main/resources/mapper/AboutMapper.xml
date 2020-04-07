@@ -84,8 +84,8 @@
         update_time,
         enable
         from bl_about where deleted = 0
-        <if test="params.aboutTitle!=null and aboutTitle !=''">
-            about_title = CONCAT('%',#{aboutTitle},'%')
+        <if test="params.aboutTitle!=null and params.aboutTitle !=''">
+            and about_title like CONCAT('%',#{params.aboutTitle},'%')
         </if>
         <if test="sortColumn!=null and sortColumn!=''">
             order by ${sortColumn} ${sortMethod}
@@ -96,8 +96,8 @@
         select
         count(*)
         from bl_about where deleted = 0
-        <if test="params.aboutTitle!=null and aboutTitle !=''">
-            about_title = CONCAT('%',#{aboutTitle},'%')
+        <if test="params.aboutTitle!=null and params.aboutTitle !=''">
+            and about_title like CONCAT('%',#{params.aboutTitle},'%')
         </if>
     </select>
 
