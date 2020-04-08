@@ -40,7 +40,7 @@
             <if test="params.logUrl!=null and params.logUrl != ''">
                 and log_url = #{params.logUrl}
             </if>
-            <if test="params.logStatus!=null and params.logStatus != ''">
+            <if test="params.logStatus!=null">
                 and log_status = #{params.logStatus}
             </if>
             <if test="params.logMethod!=null and params.logMethod != ''">

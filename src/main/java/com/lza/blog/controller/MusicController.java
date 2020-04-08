@@ -94,7 +94,7 @@ public class MusicController {
      * @param page
      * @return
      */
-    @RequestMapping(value = "/getByPage",method = RequestMethod.GET)
+    @RequestMapping(value = "/getByPage",method = RequestMethod.POST)
     public Result<Page<Music>> getByPage(@RequestBody Page<Music> page){
         String sortColumn = page.getSortColumn();
         if (StringUtils.isNotBlank(sortColumn)){

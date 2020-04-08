@@ -79,7 +79,7 @@
     </update>
 
     <delete id="delete">
-        update bl_music set deleted = 1 and id = #{id}
+        update bl_music set deleted = 1 where id = #{id}
     </delete>
 
     <select id="getByPage" parameterType="com.lza.blog.utils.Page" resultMap="BaseResultMap">
@@ -94,7 +94,6 @@
         enable
         from bl_music
         where deleted = 0
-
         <if test="params.name!=null and params.name!=''">
             and name like CONCAT('%',#{params.name},'%')
         </if>

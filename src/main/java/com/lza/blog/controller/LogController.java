@@ -27,7 +27,7 @@ public class LogController {
      * @param page
      * @return
      */
-    @RequestMapping(value = "/getByPage",method = RequestMethod.GET)
+    @RequestMapping(value = "/getByPage",method = RequestMethod.POST)
     public Result<Page<BlogVo>> getByPage(@RequestBody Page<BlogVo> page){
         String sortColumn = page.getSortColumn();
         if (StringUtils.isNotBlank(sortColumn)){
