@@ -48,7 +48,7 @@ public class LinkController {
      * @param id
      * @return
      */
-    @RequestMapping(value = "/getLinkInfoById/{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "/get/{id}",method = RequestMethod.GET)
     public Result<Object> getLinkInfoById(@PathVariable Integer id){
         Link link = this.linkService.getLinkInfoById(id);
         return new Result<>(link);
@@ -58,7 +58,7 @@ public class LinkController {
      * 查询所有
      * @return
      */
-    @RequestMapping(value = "/getAllLinkInfo",method = RequestMethod.GET)
+    @RequestMapping(value = "/list",method = RequestMethod.GET)
     public Result<List<Link>> getAllLinkInfo(){
         List<Link> links = this.linkService.getAllLinkInfo();
         return new Result<>(links);

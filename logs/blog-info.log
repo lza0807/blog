@@ -2328,3 +2328,922 @@ public void exportKtrAndKjb(@RequestParam String path, @RequestParam String type
 2020-04-08 20:22:27.481 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},"msg":"操作成功!"}
 2020-04-08 20:23:13.288 INFO  [Thread-17]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
 2020-04-08 20:23:13.294 INFO  [Thread-17]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-04-08 20:28:25.957 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 9828 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-04-08 20:28:25.962 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-04-08 20:28:26.803 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.lza.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$cbe43c37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:26.841 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:26.849 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a4e75557] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:26.852 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$8bbef999] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:26.855 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-04-08 20:28:26.892 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:26.905 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:26.923 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.044 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-04-08 20:28:31.045 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.100 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.279 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.285 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.292 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.296 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.297 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.lza.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.298 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.lza.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.331 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.354 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 20:28:31.619 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-04-08 20:28:31.629 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-04-08 20:28:31.635 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-08 20:28:31.635 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-08 20:28:31.772 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-08 20:28:31.773 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 5766 ms
+2020-04-08 20:28:32.910 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-04-08 20:28:32.929 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-04-08 20:28:32.932 INFO  [main]com.lza.blog.BlogApplication.logStarted:59 -Started BlogApplication in 7.609 seconds (JVM running for 8.624)
+2020-04-08 20:28:49.037 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 20:28:49.038 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-08 20:28:49.058 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-04-08 20:28:50.490 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/login
+2020-04-08 20:28:50.492 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 20:28:50.492 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:50.493 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.login
+2020-04-08 20:28:50.494 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]
+2020-04-08 20:28:50.676 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 186
+2020-04-08 20:28:50.735 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"2E8EBCB33534578955343D085938B6D9"},"msg":"操作成功!"}
+2020-04-08 20:28:50.954 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/info
+2020-04-08 20:28:50.954 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 20:28:50.954 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:50.955 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getUserInfo
+2020-04-08 20:28:50.955 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 20:28:50.955 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1
+2020-04-08 20:28:50.958 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","name":"刘子安","password":"21232f297a57a5a743894a0e4a801fc3","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 20:28:51.565 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /type/getList
+2020-04-08 20:28:51.565 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 20:28:51.566 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:51.566 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.TypeController.getList
+2020-04-08 20:28:51.566 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 20:28:51.582 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 20:28:51.582 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 20:28:51.582 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:51.582 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 20:28:51.583 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 20:28:51.693 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 128
+2020-04-08 20:28:51.695 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":2,"typeId":6,"typeName":"java"},{"typeBlogCount":2,"typeId":7,"typeName":"springboot"},{"typeBlogCount":0,"typeId":8,"typeName":"springcloud"},{"typeBlogCount":0,"typeId":9,"typeName":"docker"},{"typeBlogCount":0,"typeId":10,"typeName":"spring"},{"typeBlogCount":0,"typeId":12,"typeName":"mysql"},{"typeBlogCount":1,"typeId":14,"typeName":"dubbo"}],"msg":"操作成功!"}
+2020-04-08 20:28:51.814 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 232
+2020-04-08 20:28:51.819 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"周杰伦","cover":"封面","createdTime":"2020-04-06 12:45:56","enable":1,"id":2,"name":"晴天","url":"地址"},{"artist":"周杰伦","cover":"封面","createdTime":"2020-04-06 12:46:05","enable":1,"id":3,"name":"青花瓷1","url":"地址"},{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":3,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 20:28:54.626 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/delete/3
+2020-04-08 20:28:54.626 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : DELETE
+2020-04-08 20:28:54.626 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:54.626 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.delete
+2020-04-08 20:28:54.626 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[3]
+2020-04-08 20:28:54.786 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 160
+2020-04-08 20:28:54.786 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"删除成功!"}
+2020-04-08 20:28:55.252 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 20:28:55.252 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 20:28:55.252 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:55.253 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 20:28:55.253 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=3, list=[Music(id=2, name=晴天, artist=周杰伦, url=地址, cover=封面, lrc=null, createdTime=2020-04-06 12:45:56, enable=1, deleted=null), Music(id=3, name=青花瓷1, artist=周杰伦, url=地址, cover=封面, lrc=null, createdTime=2020-04-06 12:46:05, enable=1, deleted=null), Music(id=4, name=哑巴, artist=薛之谦, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg, lrc=我们都迁就嘴巴
+
+我们都憋着真话
+
+我们都让爱先发芽
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我就像一个哑巴一样
+
+反正我也不擅长抵抗, createdTime=2020-04-08 12:17:08, enable=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 20:28:55.459 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 207
+2020-04-08 20:28:55.460 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"周杰伦","cover":"封面","createdTime":"2020-04-06 12:45:56","enable":1,"id":2,"name":"晴天","url":"地址"},{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 20:28:58.041 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/delete/2
+2020-04-08 20:28:58.042 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : DELETE
+2020-04-08 20:28:58.042 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:58.042 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.delete
+2020-04-08 20:28:58.042 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[2]
+2020-04-08 20:28:58.195 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 154
+2020-04-08 20:28:58.195 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"删除成功!"}
+2020-04-08 20:28:58.666 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 20:28:58.667 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 20:28:58.667 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 20:28:58.667 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 20:28:58.667 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=2, list=[Music(id=2, name=晴天, artist=周杰伦, url=地址, cover=封面, lrc=null, createdTime=2020-04-06 12:45:56, enable=1, deleted=null), Music(id=4, name=哑巴, artist=薛之谦, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg, lrc=我们都迁就嘴巴
+
+我们都憋着真话
+
+我们都让爱先发芽
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我就像一个哑巴一样
+
+反正我也不擅长抵抗, createdTime=2020-04-08 12:17:08, enable=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 20:28:58.905 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 239
+2020-04-08 20:28:58.906 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:07:18.964 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/login
+2020-04-08 22:07:18.965 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:07:18.965 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:07:18.965 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.login
+2020-04-08 22:07:18.965 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]
+2020-04-08 22:07:20.923 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1959
+2020-04-08 22:07:20.924 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"A45B4FDBC416F1424E0282227B75681C"},"msg":"操作成功!"}
+2020-04-08 22:07:21.082 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/info
+2020-04-08 22:07:21.082 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:07:21.082 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:07:21.082 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getUserInfo
+2020-04-08 22:07:21.083 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:07:21.083 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1
+2020-04-08 22:07:21.083 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","name":"刘子安","password":"21232f297a57a5a743894a0e4a801fc3","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:07:21.649 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /type/getList
+2020-04-08 22:07:21.649 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.TypeController.getList
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:07:21.650 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:07:21.651 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:07:21.745 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 96
+2020-04-08 22:07:21.745 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":2,"typeId":6,"typeName":"java"},{"typeBlogCount":2,"typeId":7,"typeName":"springboot"},{"typeBlogCount":0,"typeId":8,"typeName":"springcloud"},{"typeBlogCount":0,"typeId":9,"typeName":"docker"},{"typeBlogCount":0,"typeId":10,"typeName":"spring"},{"typeBlogCount":0,"typeId":12,"typeName":"mysql"},{"typeBlogCount":1,"typeId":14,"typeName":"dubbo"}],"msg":"操作成功!"}
+2020-04-08 22:07:22.074 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 424
+2020-04-08 22:07:22.074 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:08:18.011 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /upload/uploadImage
+2020-04-08 22:08:18.011 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:08:18.011 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:08:18.012 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UploadController.uploadImage
+2020-04-08 22:08:18.012 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@124149b4]
+2020-04-08 22:08:18.344 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 333
+2020-04-08 22:08:18.345 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","msg":"上传成功!"}
+2020-04-08 22:08:28.079 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /upload/uploadImage
+2020-04-08 22:08:28.080 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:08:28.080 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:08:28.080 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UploadController.uploadImage
+2020-04-08 22:08:28.080 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@555ded36]
+2020-04-08 22:08:28.991 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 912
+2020-04-08 22:08:28.992 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3","msg":"上传成功!"}
+2020-04-08 22:08:47.518 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/save
+2020-04-08 22:08:47.518 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:08:47.518 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:08:47.519 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.save
+2020-04-08 22:08:47.519 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Music(id=null, name=消愁 (Live), artist=毛不易, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg, lrc=消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐, createdTime=null, enable=null, deleted=null)]
+2020-04-08 22:08:47.692 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 174
+2020-04-08 22:08:47.692 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"添加成功！"}
+2020-04-08 22:08:48.460 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:08:48.460 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:08:48.460 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:08:48.460 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:08:48.460 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=1, list=[Music(id=4, name=哑巴, artist=薛之谦, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg, lrc=我们都迁就嘴巴
+
+我们都憋着真话
+
+我们都让爱先发芽
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我就像一个哑巴一样
+
+反正我也不擅长抵抗, createdTime=2020-04-08 12:17:08, enable=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:08:48.705 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 246
+2020-04-08 22:08:48.705 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","createdTime":"2020-04-08 14:08:46","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:08:54.041 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/5
+2020-04-08 22:08:54.041 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:08:54.042 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:08:54.042 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:08:54.042 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[5]
+2020-04-08 22:08:54.399 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 358
+2020-04-08 22:08:54.399 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},"msg":"操作成功!"}
+2020-04-08 22:09:01.392 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/4
+2020-04-08 22:09:01.392 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:09:01.392 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:09:01.392 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:09:01.393 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[4]
+2020-04-08 22:09:01.489 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 97
+2020-04-08 22:09:01.489 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},"msg":"操作成功!"}
+2020-04-08 22:09:08.885 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/5
+2020-04-08 22:09:08.886 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:09:08.886 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:09:08.886 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:09:08.886 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[5]
+2020-04-08 22:09:08.982 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 97
+2020-04-08 22:09:08.982 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},"msg":"操作成功!"}
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/info
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getUserInfo
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 0
+2020-04-08 22:12:44.525 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","name":"刘子安","password":"21232f297a57a5a743894a0e4a801fc3","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:12:45.050 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /type/getList
+2020-04-08 22:12:45.050 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.TypeController.getList
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:12:45.051 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:12:45.234 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 184
+2020-04-08 22:12:45.234 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":2,"typeId":6,"typeName":"java"},{"typeBlogCount":2,"typeId":7,"typeName":"springboot"},{"typeBlogCount":0,"typeId":8,"typeName":"springcloud"},{"typeBlogCount":0,"typeId":9,"typeName":"docker"},{"typeBlogCount":0,"typeId":10,"typeName":"spring"},{"typeBlogCount":0,"typeId":12,"typeName":"mysql"},{"typeBlogCount":1,"typeId":14,"typeName":"dubbo"}],"msg":"操作成功!"}
+2020-04-08 22:12:46.641 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1590
+2020-04-08 22:12:46.642 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","createdTime":"2020-04-08 14:08:46","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:13:08.351 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /upload/uploadImage
+2020-04-08 22:13:08.351 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:13:08.351 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:13:08.352 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UploadController.uploadImage
+2020-04-08 22:13:08.352 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@744c6393]
+2020-04-08 22:13:08.902 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 551
+2020-04-08 22:13:08.902 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","msg":"上传成功!"}
+2020-04-08 22:13:17.217 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /upload/uploadImage
+2020-04-08 22:13:17.218 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:13:17.218 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:13:17.218 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.UploadController.uploadImage
+2020-04-08 22:13:17.218 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@28fdf7ad]
+2020-04-08 22:13:20.993 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 3776
+2020-04-08 22:13:20.993 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3","msg":"上传成功!"}
+2020-04-08 22:13:30.257 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/save
+2020-04-08 22:13:30.257 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:13:30.257 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:13:30.258 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.save
+2020-04-08 22:13:30.258 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Music(id=null, name=清明雨上, artist=许嵩, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg, lrc=清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱, createdTime=null, enable=null, deleted=null)]
+2020-04-08 22:13:30.538 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 281
+2020-04-08 22:13:30.538 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"添加成功！"}
+2020-04-08 22:13:30.945 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:13:30.945 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:13:30.945 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:13:30.946 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:13:30.946 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=2, list=[Music(id=4, name=哑巴, artist=薛之谦, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg, lrc=我们都迁就嘴巴
+
+我们都憋着真话
+
+我们都让爱先发芽
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我们会接受惩罚
+
+有一个变成哑巴
+
+越退让越不会表达
+
+所有的安静都是人造的冷清
+
+所有的杂音在安慰后平静
+
+我不需要证明
+
+我不需要声音
+
+我就像一个哑巴一样
+
+你翻译不了我的声响
+
+怕腻烦过量
+
+我举止要限量
+
+你可以当我哑巴一样
+
+你不会看见我的抵抗
+
+请别怕我受伤 我自己会圆场
+
+我就像一个哑巴一样
+
+反正我也不擅长抵抗, createdTime=2020-04-08 12:17:08, enable=1, deleted=null), Music(id=5, name=消愁 (Live), artist=毛不易, url=http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3, cover=http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg, lrc=消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐, createdTime=2020-04-08 14:08:46, enable=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:13:31.396 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 451
+2020-04-08 22:13:31.396 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","createdTime":"2020-04-08 14:08:46","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","createdTime":"2020-04-08 14:13:28","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":3,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:13:36.180 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/6
+2020-04-08 22:13:36.180 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:13:36.180 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:13:36.180 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:13:36.180 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[6]
+2020-04-08 22:13:36.295 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 115
+2020-04-08 22:13:36.295 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"},"msg":"操作成功!"}
+2020-04-08 22:13:51.951 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/6
+2020-04-08 22:13:51.951 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:13:51.952 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:13:51.952 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:13:51.952 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[6]
+2020-04-08 22:13:52.306 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 355
+2020-04-08 22:13:52.307 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"},"msg":"操作成功!"}
+2020-04-08 22:14:03.839 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/5
+2020-04-08 22:14:03.840 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:14:03.840 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:14:03.840 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:14:03.840 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[5]
+2020-04-08 22:14:03.960 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 121
+2020-04-08 22:14:03.960 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},"msg":"操作成功!"}
+2020-04-08 22:14:14.511 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/get/6
+2020-04-08 22:14:14.511 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:14:14.511 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:14:14.512 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getById
+2020-04-08 22:14:14.512 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[6]
+2020-04-08 22:14:15.587 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1076
+2020-04-08 22:14:15.587 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"},"msg":"操作成功!"}
+2020-04-08 22:17:12.621 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:17:12.622 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:17:12.622 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:17:12.622 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:17:12.622 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:17:12.805 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 184
+2020-04-08 22:17:12.806 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","createdTime":"2020-04-08 14:08:46","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","createdTime":"2020-04-08 14:13:28","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":3,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:19:23.257 INFO  [Thread-17]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-04-08 22:19:23.266 INFO  [Thread-17]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-04-08 22:19:28.713 INFO  [main]com.lza.blog.BlogApplication.logStarting:50 -Starting BlogApplication on liu with PID 26776 (D:\software\JAVA\blog\target\classes started by liu in D:\software\JAVA\blog)
+2020-04-08 22:19:28.718 INFO  [main]com.lza.blog.BlogApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-04-08 22:19:29.570 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.lza.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$7b654c38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:29.609 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:29.617 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$54686558] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:29.620 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$3b40099a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:29.622 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-04-08 22:19:29.660 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:29.674 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:29.692 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.684 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-04-08 22:19:34.684 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.740 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.914 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.919 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.926 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.930 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.931 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.lza.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.932 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.lza.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.962 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:34.983 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 22:19:35.234 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-04-08 22:19:35.244 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-04-08 22:19:35.251 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-08 22:19:35.251 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-08 22:19:35.388 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-08 22:19:35.388 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 6622 ms
+2020-04-08 22:19:36.524 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-04-08 22:19:36.542 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-04-08 22:19:36.544 INFO  [main]com.lza.blog.BlogApplication.logStarted:59 -Started BlogApplication in 8.453 seconds (JVM running for 9.508)
+2020-04-08 22:20:00.330 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:20:00.330 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-08 22:20:00.349 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 18 ms
+2020-04-08 22:20:02.585 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/login
+2020-04-08 22:20:02.587 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:20:02.587 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:02.589 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.login
+2020-04-08 22:20:02.589 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]
+2020-04-08 22:20:02.779 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 194
+2020-04-08 22:20:02.837 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"585526499C1C5FD57426B43EC211124C"},"msg":"操作成功!"}
+2020-04-08 22:20:03.153 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/info
+2020-04-08 22:20:03.153 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:03.153 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:03.154 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getUserInfo
+2020-04-08 22:20:03.154 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:03.154 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1
+2020-04-08 22:20:03.158 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","name":"刘子安","password":"21232f297a57a5a743894a0e4a801fc3","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:20:04.054 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /type/getList
+2020-04-08 22:20:04.054 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:04.055 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:20:04.055 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:04.055 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:04.055 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.TypeController.getList
+2020-04-08 22:20:04.055 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:04.056 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:20:04.056 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:04.056 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:04.341 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 287
+2020-04-08 22:20:04.342 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 287
+2020-04-08 22:20:04.344 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":2,"typeId":6,"typeName":"java"},{"typeBlogCount":2,"typeId":7,"typeName":"springboot"},{"typeBlogCount":0,"typeId":8,"typeName":"springcloud"},{"typeBlogCount":0,"typeId":9,"typeName":"docker"},{"typeBlogCount":0,"typeId":10,"typeName":"spring"},{"typeBlogCount":0,"typeId":12,"typeName":"mysql"},{"typeBlogCount":1,"typeId":14,"typeName":"dubbo"}],"msg":"操作成功!"}
+2020-04-08 22:20:04.344 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-03-30 07:20:10"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:20:11.854 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/get/1
+2020-04-08 22:20:11.855 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:11.855 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:11.855 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getLinkInfoById
+2020-04-08 22:20:11.856 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1]
+2020-04-08 22:20:12.280 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 426
+2020-04-08 22:20:12.280 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","version":5},"msg":"操作成功!"}
+2020-04-08 22:20:17.105 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/update
+2020-04-08 22:20:17.105 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : PUT
+2020-04-08 22:20:17.105 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:17.105 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.updateById
+2020-04-08 22:20:17.106 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Link(linkId=1, linkName=百度, linkUrl=https://www.baidu.com1, createdTime=null, updateTime=null, version=5, deleted=null)]
+2020-04-08 22:20:17.267 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 162
+2020-04-08 22:20:17.268 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"修改成功！"}
+2020-04-08 22:20:18.033 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:20:18.034 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:18.034 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:18.034 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:20:18.035 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:18.136 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 103
+2020-04-08 22:20:18.136 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com1","updateTime":"2020-04-08 14:20:15"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:20:20.829 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/get/1
+2020-04-08 22:20:20.829 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:20.829 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:20.829 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getLinkInfoById
+2020-04-08 22:20:20.830 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1]
+2020-04-08 22:20:21.316 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 487
+2020-04-08 22:20:21.316 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com1","version":6},"msg":"操作成功!"}
+2020-04-08 22:20:24.554 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/update
+2020-04-08 22:20:24.554 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : PUT
+2020-04-08 22:20:24.554 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:24.554 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.updateById
+2020-04-08 22:20:24.554 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Link(linkId=1, linkName=百度, linkUrl=https://www.baidu.com, createdTime=null, updateTime=null, version=6, deleted=null)]
+2020-04-08 22:20:24.692 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 137
+2020-04-08 22:20:24.692 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"修改成功！"}
+2020-04-08 22:20:25.171 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:20:25.172 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:25.172 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:25.172 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:20:25.172 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:25.265 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 94
+2020-04-08 22:20:25.265 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:20:40.151 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/save
+2020-04-08 22:20:40.151 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:20:40.151 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:40.151 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.save
+2020-04-08 22:20:40.152 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Link(linkId=null, linkName=test, linkUrl=www.ceshi.com, createdTime=null, updateTime=null, version=null, deleted=null)]
+2020-04-08 22:20:40.573 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 422
+2020-04-08 22:20:40.574 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"添加成功!"}
+2020-04-08 22:20:40.742 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:20:40.742 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:40.743 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:40.743 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:20:40.743 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:40.845 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 103
+2020-04-08 22:20:40.846 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"},{"createdTime":"2020-04-08 14:20:38","linkId":3,"linkName":"test","linkUrl":"www.ceshi.com","updateTime":"2020-04-08 14:20:38"}],"msg":"操作成功!"}
+2020-04-08 22:20:51.784 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/delete/3
+2020-04-08 22:20:51.784 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : DELETE
+2020-04-08 22:20:51.784 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:51.784 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.delete
+2020-04-08 22:20:51.785 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[3]
+2020-04-08 22:20:51.930 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 146
+2020-04-08 22:20:51.930 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"删除成功！"}
+2020-04-08 22:20:52.601 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:20:52.601 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:20:52.601 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:20:52.601 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:20:52.601 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:20:52.704 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 103
+2020-04-08 22:20:52.704 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:21:34.480 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:21:34.480 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:21:34.480 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:21:34.480 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:21:34.481 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:21:34.709 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /log/getByPage
+2020-04-08 22:21:34.709 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:21:34.709 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:21:34.709 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LogController.getByPage
+2020-04-08 22:21:34.710 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:21:34.737 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 257
+2020-04-08 22:21:34.742 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","createdTime":"2020-04-08 14:08:46","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","createdTime":"2020-04-08 14:13:28","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":3,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:21:34.960 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 251
+2020-04-08 22:21:34.963 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-03-28 12:39:27","logId":4,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[1]","logResult":"{\"code\":20000,\"msg\":\"操作成功!\"}","logStatus":1,"logTime":2,"logUrl":"/test/textException/1"},{"createdTime":"2020-03-28 17:29:06","logId":5,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:29:53","logId":6,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:32:16","logId":7,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:32:41","logId":8,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:35)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4203ba0e.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:36:33","logId":9,"logIp":"127.0.0.1","logMessage":"org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.\n\tat com.lza.blog.controller.AdminController.login(AdminController.java:36)\n\tat com.lza.blog.controller.AdminController$$FastClassBySpringCGLIB$$62ead45d.invoke(<generated>)\n\tat com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lza.blog.controller.AdminController$$EnhancerBySpringCGLIB$$87d9a28c.login(<generated>)\n","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logStatus":0,"logTime":0,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:43:53","logId":10,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"61DD974A49F7BEECD1F6A184D6010BDB\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":19840,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:44:28","logId":11,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"61DD974A49F7BEECD1F6A184D6010BDB\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":3772,"logUrl":"/admin/login"},{"createdTime":"2020-03-28 17:45:37","logId":12,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"刘子安\",\"password\":\"21232f297a57a5a743894a0e4a801fc3\",\"signature\":\"加分\",\"username\":\"admin\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-03-29 09:38:56","logId":13,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"980868099BD0DEF6A4A983A3D7E8C466\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":173,"logUrl":"/admin/login"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":815,"totalPage":82},"msg":"操作成功!"}
+2020-04-08 22:35:04.112 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:35:04.112 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:35:04.112 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:35:04.112 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:35:04.113 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:35:05.194 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /music/getByPage
+2020-04-08 22:35:05.195 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:35:05.195 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:35:05.195 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.MusicController.getByPage
+2020-04-08 22:35:05.195 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2020-04-08 22:35:07.225 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 3113
+2020-04-08 22:35:07.225 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:35:07.892 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 2698
+2020-04-08 22:35:07.893 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"薛之谦","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwLSAXMSaAABUQgn8TDQ402.jpg","createdTime":"2020-04-08 12:17:08","enable":1,"id":4,"lrc":"我们都迁就嘴巴\n\n我们都憋着真话\n\n我们都让爱先发芽\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我们会接受惩罚\n\n有一个变成哑巴\n\n越退让越不会表达\n\n所有的安静都是人造的冷清\n\n所有的杂音在安慰后平静\n\n我不需要证明\n\n我不需要声音\n\n我就像一个哑巴一样\n\n你翻译不了我的声响\n\n怕腻烦过量\n\n我举止要限量\n\n你可以当我哑巴一样\n\n你不会看见我的抵抗\n\n请别怕我受伤 我自己会圆场\n\n我就像一个哑巴一样\n\n反正我也不擅长抵抗","name":"哑巴","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6NwL2AQNqoAECd-iFlcLw799.mp3"},{"artist":"毛不易","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tCAXf86AAEnuTs7KeY474.jpg","createdTime":"2020-04-08 14:08:46","enable":1,"id":5,"lrc":"消愁 (Live) - 毛不易词：毛不易曲：毛不易编曲：郑楠音乐总监：谭伊哲乐队：TYZ乐队当你走进这欢乐场背上所有的梦与想各色的脸上各色的妆没人记得你的模样三巡酒过你在角落固执地唱着苦涩的歌听他在喧嚣里被淹没你拿起酒杯对自己说一杯敬朝阳 一杯敬月光唤醒我的向往 温柔了寒窗于是可以不回头地逆风飞翔不怕心头有雨 眼底有霜一杯敬故乡 一杯敬远方守着我的善良 催着我成长所以南北的路从此不再漫长灵魂不再无处安放一杯敬明天 一杯敬过往宽重我的身体 厚重了肩膀虽然从不相信所谓山高水长人生苦短何必念念不忘一杯敬自由 一杯敬死亡宽恕我的平凡 驱散了迷惘好吧天亮之后总是潦草离场清醒的人最荒唐好吧天亮之后总是潦草离场清醒的人最荒唐","name":"消愁 (Live)","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2tuAIYnhACuroacKT6g509.mp3"},{"artist":"许嵩","cover":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_OAQrF4AADgUZTFOG8276.jpg","createdTime":"2020-04-08 14:13:28","enable":1,"id":6,"lrc":"清明雨上 - 许嵩 (Vae Xu)词：许嵩、安琪曲：许嵩窗透初晓 日照西桥 云自摇想你当年荷风微摆的衣角木雕鎏金 岁月涟漪 七年前封笔因为我今生挥毫只为你雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱远方有琴 愀然空灵 声声催天雨涓涓心事说给自己听月影憧憧 烟火几重 烛花红红尘旧梦 梦断都成空雨打湿了眼眶 年年倚井盼归堂最怕不觉泪已拆两行我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱我在人间彷徨 寻不到你的天堂东瓶西镜放 恨不能遗忘又是清明雨上 折菊寄到你身旁把你最爱的歌来轻轻唱","name":"清明雨上","url":"http://139.9.130.249/group1/M00/00/00/wKgAbl6N2_-AdPXAADb-sifc6g4167.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":3,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:35:29.827 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/getAdmin
+2020-04-08 22:35:29.827 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:35:29.828 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:35:29.828 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getAdminInfo
+2020-04-08 22:35:29.828 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:35:29.920 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 93
+2020-04-08 22:35:29.920 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","id":1,"name":"刘子安","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:56:46.945 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:56:46.946 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:56:46.947 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:56:46.947 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:56:46.947 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:56:46.953 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/getAdmin
+2020-04-08 22:56:46.953 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:56:46.954 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:56:46.954 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getAdminInfo
+2020-04-08 22:56:46.954 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:56:47.234 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:56:47.235 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:56:47.235 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:56:47.236 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:56:47.236 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:56:48.080 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 846
+2020-04-08 22:56:48.080 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:56:48.175 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1222
+2020-04-08 22:56:48.175 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","id":1,"name":"刘子安","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:56:48.780 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1835
+2020-04-08 22:56:48.786 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":0,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-07 07:20:06"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:08.842 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/getAdmin
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getAdminInfo
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:57:08.843 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:08.844 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:57:08.953 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 111
+2020-04-08 22:57:08.953 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","id":1,"name":"刘子安","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:57:09.071 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 228
+2020-04-08 22:57:09.071 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":0,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-07 07:20:06"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:09.147 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:57:09.147 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:09.147 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:09.147 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:57:09.147 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:57:09.252 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 106
+2020-04-08 22:57:09.252 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:57:12.138 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/read/1247423893702991872
+2020-04-08 22:57:12.139 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:12.139 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:12.140 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.readById
+2020-04-08 22:57:12.140 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1247423893702991872]
+2020-04-08 22:57:12.924 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 786
+2020-04-08 22:57:12.925 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>到底要不要重复造轮子?<br />在软件开发领域有一句著名的话：不要重复造轮子</p>\n<p>那这句有道理吗？</p>\n<p>我个人觉得：</p>\n<p>这句话有道理，也没道理，这句话是有矛盾和冲突的！</p>\n<p>任何事情都有两面性</p>\n<p>我们必须要知道一件事情，在企业中工作的程序员，他们除了写代码之外，还有一件最重要的事情，就是帮老板赚钱，程序员怎么帮老板赚钱呢？那就是程序员靠写代码帮老板帮企业赚钱，对于老板和企业而言，老板并不关心程序员们具体怎么写代码，老板关心的是用最短的时间，最低的人工成本，实现利益最大化。(任何企业的第一使命都是赚钱，因为企业每天都要养活一大堆的员工)</p>\n<p>比如：老板要程序员们开发一款软件，然后程序员们就开始写代码，如果什么都要程序员自己从头开始写的话，那这个软件得开发到猴年马月，如果有现成的框架和工具拿来即用，那就可以大大的缩短开发时间，节省人工成本，企业就可以快速的实现利益最大化，这自然是老板喜欢的结果。</p>\n<p>所以说，如果你想缩短开发时间，节约人工成本，实现利益最大化，那就尽量的多多使用现成的轮子，不要重复造轮子</p>\n<p>但是我又特别建议大家多多造轮子，只有多造轮子，才能提高自己的编程能力，高手都是一点一点实践出来的</p>\n<p>对于初学者和学生来说，我建议多多造轮子，这样可以提高自己的动手能力，提高自己的编程能力，同时又可以锻炼自己的思考能力和分析问题和解决问题的能力，拓展自己的思维</p>\n<p>对于老手来说，尽量少造轮子，偶尔造造轮子也是OK的，无伤大雅，但是如果老手是出于研究学习的目的和心态的话，那就多多造轮子吧</p>\n<p>对于希望在最短的时间内实现利益最大化的话，那就少造轮子，直接用现成的轮子，因为这样可以快速的赚钱！</p>\n<p>所以综上所述，不要重复造轮子这句话本身是矛盾和冲突的，因为大家看问题的立场和角度不一样！</p>\n<p>对于企业和老板来说，企业和老板不希望程序员重复造轮子，因为这会耽误老板赚钱，挡了老板的财路</p>\n<p>对于程序员个人来说，我觉得在程序员编程水平还比较初级的时候，多多造轮子可以提高自己的动手能力和编程能力，对于编程水平中等的程序员，我建议也是多多造轮子，以此来提高自己的编程能力，对于高手程序员来说，他在成为高手之前的那些日子里就是天天在造轮子，因为他那时候如果不多多造轮子(如果他那时候不拼命反反复复写代码)，那他现在也不可能成为高手！所以，对于高手程序员来说，此时，可以不必重复造轮子了，如果他是出于精进、精益求精或者是出于研究和学习的目的，那他也可以适当的偶尔的造轮子，那也是OK的</p>","blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","blogType":6,"createdTime":"2020-04-07 07:20:06","typeName":"java","version":1},"msg":"操作成功!"}
+2020-04-08 22:57:16.030 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:16.030 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:16.031 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:16.031 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:16.031 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:57:16.559 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 529
+2020-04-08 22:57:16.560 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:17.971 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:17.971 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:17.972 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:17.972 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:17.972 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=5, list=[BlogVo(typeName=java), BlogVo(typeName=dubbo), BlogVo(typeName=springboot), BlogVo(typeName=springboot), BlogVo(typeName=java)], params={}, sortColumn=blog_goods, sortMethod=desc)]
+2020-04-08 22:57:18.173 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 202
+2020-04-08 22:57:18.174 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"}],"pageSize":10,"params":{},"sortColumn":"blog_goods","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:21.197 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:21.197 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:21.197 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:21.197 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:21.197 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=5, list=[BlogVo(typeName=java), BlogVo(typeName=springboot), BlogVo(typeName=springboot), BlogVo(typeName=dubbo), BlogVo(typeName=java)], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:57:21.409 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 212
+2020-04-08 22:57:21.410 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:37.678 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:37.678 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:37.679 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:37.679 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:37.679 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=5, list=[BlogVo(typeName=java), BlogVo(typeName=dubbo), BlogVo(typeName=springboot), BlogVo(typeName=springboot), BlogVo(typeName=java)], params={}, sortColumn=blog_goods, sortMethod=desc)]
+2020-04-08 22:57:38.638 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 960
+2020-04-08 22:57:38.638 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"}],"pageSize":10,"params":{},"sortColumn":"blog_goods","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:42.075 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:42.076 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:42.076 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:42.076 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:42.077 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=5, list=[BlogVo(typeName=java), BlogVo(typeName=springboot), BlogVo(typeName=springboot), BlogVo(typeName=dubbo), BlogVo(typeName=java)], params={}, sortColumn=blog_read, sortMethod=desc)]
+2020-04-08 22:57:42.459 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 384
+2020-04-08 22:57:42.459 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"}],"pageSize":10,"params":{},"sortColumn":"blog_read","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:44.817 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:44.818 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:44.818 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:44.818 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:44.818 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=5, list=[BlogVo(typeName=java), BlogVo(typeName=java), BlogVo(typeName=springboot), BlogVo(typeName=springboot), BlogVo(typeName=dubbo)], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:57:45.095 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 278
+2020-04-08 22:57:45.095 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":0,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-07 07:18:07"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:57:46.836 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/read/1247423253719310336
+2020-04-08 22:57:46.837 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:46.837 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:46.838 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.readById
+2020-04-08 22:57:46.838 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1247423253719310336]
+2020-04-08 22:57:47.367 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 531
+2020-04-08 22:57:47.368 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>1、从百度上搜索下载dubbo-admin-2.*.war然后传输到linux的webapp目录下</p>\n<p>建议更改一下war的名字</p>\n<p><img src=\"https://img-blog.csdn.net/20180509211247640?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MTM4MzI0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70\" /></p>\n<p>2、访问公网地址/dubbo-admin</p>\n<p>用户名密码都是dubbo</p>\n<p>如果监控中心和注册中心在同一台服务器上，可以不需要任何配置。</p>\n<p>如果不在同一台服务器，需要修改配置文件：</p>\n<p>在tomcat的/webapps/dubbo-admin/WEB-INF/dubbo.properties</p>\n<p><img src=\"https://img-blog.csdn.net/20180509211657191?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MTM4MzI0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70\" /></p>\n<p>这下知道为什么用户名和密码都是root了吧<br /><br /></p>","blogGoods":0,"blogId":"1247423253719310336","blogRead":1,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","blogType":14,"createdTime":"2020-04-07 07:17:33","typeName":"dubbo","version":2},"msg":"操作成功!"}
+2020-04-08 22:57:55.027 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /type/getList
+2020-04-08 22:57:55.027 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:55.028 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:55.028 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.TypeController.getList
+2020-04-08 22:57:55.028 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:57:55.126 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 99
+2020-04-08 22:57:55.126 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":2,"typeId":6,"typeName":"java"},{"typeBlogCount":2,"typeId":7,"typeName":"springboot"},{"typeBlogCount":0,"typeId":8,"typeName":"springcloud"},{"typeBlogCount":0,"typeId":9,"typeName":"docker"},{"typeBlogCount":0,"typeId":10,"typeName":"spring"},{"typeBlogCount":0,"typeId":12,"typeName":"mysql"},{"typeBlogCount":1,"typeId":14,"typeName":"dubbo"}],"msg":"操作成功!"}
+2020-04-08 22:57:56.122 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/read/1247423253719310336
+2020-04-08 22:57:56.122 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:56.122 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:56.122 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.readById
+2020-04-08 22:57:56.122 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1247423253719310336]
+2020-04-08 22:57:56.588 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 466
+2020-04-08 22:57:56.588 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>1、从百度上搜索下载dubbo-admin-2.*.war然后传输到linux的webapp目录下</p>\n<p>建议更改一下war的名字</p>\n<p><img src=\"https://img-blog.csdn.net/20180509211247640?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MTM4MzI0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70\" /></p>\n<p>2、访问公网地址/dubbo-admin</p>\n<p>用户名密码都是dubbo</p>\n<p>如果监控中心和注册中心在同一台服务器上，可以不需要任何配置。</p>\n<p>如果不在同一台服务器，需要修改配置文件：</p>\n<p>在tomcat的/webapps/dubbo-admin/WEB-INF/dubbo.properties</p>\n<p><img src=\"https://img-blog.csdn.net/20180509211657191?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MTM4MzI0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70\" /></p>\n<p>这下知道为什么用户名和密码都是root了吧<br /><br /></p>","blogGoods":0,"blogId":"1247423253719310336","blogRead":2,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","blogType":14,"createdTime":"2020-04-07 07:17:33","typeName":"dubbo","version":3},"msg":"操作成功!"}
+2020-04-08 22:57:57.664 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /type/getList
+2020-04-08 22:57:57.664 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:57:57.665 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:57.665 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.TypeController.getList
+2020-04-08 22:57:57.665 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:57:57.760 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 96
+2020-04-08 22:57:57.761 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":2,"typeId":6,"typeName":"java"},{"typeBlogCount":2,"typeId":7,"typeName":"springboot"},{"typeBlogCount":0,"typeId":8,"typeName":"springcloud"},{"typeBlogCount":0,"typeId":9,"typeName":"docker"},{"typeBlogCount":0,"typeId":10,"typeName":"spring"},{"typeBlogCount":0,"typeId":12,"typeName":"mysql"},{"typeBlogCount":1,"typeId":14,"typeName":"dubbo"}],"msg":"操作成功!"}
+2020-04-08 22:57:59.539 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:57:59.539 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:57:59.539 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:57:59.539 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:57:59.540 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={typeId=6}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:58:00.010 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 471
+2020-04-08 22:58:00.010 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{"typeId":"6"},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:58:57.249 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:58:57.250 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:58:57.250 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:58:57.250 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:58:57.250 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={typeId=6}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:58:58.391 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1142
+2020-04-08 22:58:58.392 INFO  [http-nio-1000-exec-6]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{"typeId":"6"},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:59:06.280 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:59:06.281 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:59:06.281 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:59:06.281 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:59:06.281 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={typeId=6}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:59:06.490 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 210
+2020-04-08 22:59:06.490 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{"typeId":"6"},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 22:59:18.122 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 22:59:18.122 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 22:59:18.122 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:59:18.122 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 22:59:18.122 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={typeId=6}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 22:59:18.124 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/getAdmin
+2020-04-08 22:59:18.125 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:59:18.125 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:59:18.125 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getAdminInfo
+2020-04-08 22:59:18.125 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:59:18.225 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 101
+2020-04-08 22:59:18.226 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","id":1,"name":"刘子安","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 22:59:18.378 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 22:59:18.379 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 22:59:18.379 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 22:59:18.379 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 22:59:18.379 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 22:59:18.519 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 141
+2020-04-08 22:59:18.519 INFO  [http-nio-1000-exec-3]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 22:59:18.695 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 573
+2020-04-08 22:59:18.695 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{"typeId":"6"},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 23:00:37.886 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /admin/getAdmin
+2020-04-08 23:00:37.887 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 23:00:37.887 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:00:37.887 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AdminController.getAdminInfo
+2020-04-08 23:00:37.887 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 23:00:37.892 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /link/list
+2020-04-08 23:00:37.892 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 23:00:37.892 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:00:37.893 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.LinkController.getAllLinkInfo
+2020-04-08 23:00:37.893 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 23:00:37.902 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 23:00:37.903 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 23:00:37.903 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:00:37.903 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 23:00:37.903 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={typeId=6}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 23:00:38.042 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 150
+2020-04-08 23:00:38.042 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"createdTime":"2020-03-30 06:40:24","linkId":1,"linkName":"百度","linkUrl":"https://www.baidu.com","updateTime":"2020-04-08 14:20:23"},{"createdTime":"2020-03-30 06:52:22","linkId":2,"linkName":"github","linkUrl":"https://github.com/lza0807/blog","updateTime":"2020-03-30 06:52:22"}],"msg":"操作成功!"}
+2020-04-08 23:00:38.042 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 156
+2020-04-08 23:00:38.042 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"header":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MqEaAXJe9AAB28yzuliM858.jpg","id":1,"name":"刘子安","signature":"勤能补拙","username":"admin"},"msg":"操作成功!"}
+2020-04-08 23:00:38.202 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 300
+2020-04-08 23:00:38.202 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{"typeId":"6"},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 23:00:59.572 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 23:00:59.572 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 23:00:59.572 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:00:59.573 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 23:00:59.573 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={typeId=6}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 23:01:00.101 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 529
+2020-04-08 23:01:00.101 INFO  [http-nio-1000-exec-1]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{"typeId":"6"},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 23:01:10.200 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 23:01:10.200 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 23:01:10.200 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:01:10.200 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 23:01:10.201 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 23:01:10.711 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 511
+2020-04-08 23:01:10.711 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":2,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-08 14:57:56"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":0,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-07 16:07:52"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 23:01:18.455 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/read/1247365394201612288
+2020-04-08 23:01:18.456 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 23:01:18.456 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:01:18.456 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.readById
+2020-04-08 23:01:18.456 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1247365394201612288]
+2020-04-08 23:01:20.248 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1793
+2020-04-08 23:01:20.248 INFO  [http-nio-1000-exec-8]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<pre class=\"language-java\"><code> \nimport javax.servlet.http.HttpServletRequest;\nimport javax.servlet.http.HttpServletResponse;\nimport java.io.*;\nimport java.net.URLEncoder;\n \n/**\n * 下载工具类\n * @author czs\n * @date 2020-2-22 11:02:54\n */\npublic class DownloadUtils {\n \n    /**\n     * 根据字符串下载内容\n     *\n     * @param request  request\n     * @param response response\n     * @param fileName 下载的文件名\n     * @param content  字符串内容\n     * @throws IOException\n     */\n    public static void downloadByStringContent(HttpServletRequest request,\n                                               HttpServletResponse response,\n                                               String fileName, String content)\n            throws IOException {\n        //设置向浏览器端传送的文件格式\n        response.setContentType(\"application/octet-stream;charset=utf-8\");\n        response.setCharacterEncoding(\"utf-8\");\n        if (request.getHeader(\"User-Agent\").toLowerCase().indexOf(\"firefox\") &gt; 0) {\n            // firefox浏览器\n            fileName = new String(fileName.getBytes(\"UTF-8\"), \"ISO8859-1\");\n        } else if (request.getHeader(\"User-Agent\").toUpperCase().indexOf(\"MSIE\") &gt; 0) {\n\t\t\t// IE浏览器\n            fileName = URLEncoder.encode(fileName, \"UTF-8\");\n        } else if (request.getHeader(\"User-Agent\").toUpperCase().indexOf(\"CHROME\") &gt; 0) {\n            // 谷歌\n            fileName = new String(fileName.getBytes(\"UTF-8\"), \"ISO8859-1\");\n        }\n        response.setHeader(\"Content-disposition\", \"attachment; filename=\" + fileName);\n        BufferedInputStream inp = null;\n        OutputStream out = response.getOutputStream();\n        try {\n            inp = new BufferedInputStream(new ByteArrayInputStream(content.getBytes(\"utf-8\")));\n            int len = 0;\n            byte[] buf = new byte[1024];\n            while ((len = inp.read(buf)) &gt; 0) {\n                out.write(buf, 0, len);\n            }\n        } catch (Exception e) {\n            e.printStackTrace();\n        } finally {\n            if (inp != null) {\n                inp.close();\n            }\n            if (out != null) {\n                out.close();\n            }\n        }\n    }\n \n}</code></pre>\n<pre class=\"language-java\"><code>@ResponseBody\n@RequestMapping(method = RequestMethod.GET, value = \"/exportKtrAndKjb\")\npublic void exportKtrAndKjb(@RequestParam String path, @RequestParam String type, HttpServletRequest request, HttpServletResponse response) throws Exception {\n    String xml = xxxService.getXmlByXXX(path);\n    String fileName = xxxService.getFileNameByXml(xml);\n    DownloadUtils.downloadByStringContent(request, response, fileName, xml);\n}</code></pre>","blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":1,"blogTitle":"java下载字符串","blogType":6,"createdTime":"2020-04-07 03:27:38","typeName":"java","version":6},"msg":"操作成功!"}
+2020-04-08 23:01:26.289 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 23:01:26.290 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 23:01:26.290 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:01:26.290 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 23:01:26.290 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 23:01:27.096 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 807
+2020-04-08 23:01:27.096 INFO  [http-nio-1000-exec-5]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":2,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-08 14:57:56"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":0,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-07 16:06:42"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":1,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-08 15:01:20"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 23:01:30.344 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/read/1247366723137474560
+2020-04-08 23:01:30.344 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 23:01:30.344 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:01:30.344 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.readById
+2020-04-08 23:01:30.345 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1247366723137474560]
+2020-04-08 23:01:31.181 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 837
+2020-04-08 23:01:31.182 INFO  [http-nio-1000-exec-10]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>在接触这个配置之前，已经觉得mybatis的逆向工程生成已经很方便了，然而今天学到了一个通用mapper配置，在单表的crud，不需要配置xml、接口中的方法。特此来记录一下：</p>\n<p>1.首先在pom文件中添加启动器：</p>\n<p>&lt;!-- 通用mapper --&gt;<br />&lt;dependency&gt;<br />&nbsp; &nbsp; &lt;groupId&gt;tk.mybatis&lt;/groupId&gt;<br />&nbsp; &nbsp; &lt;artifactId&gt;mapper-spring-boot-starter&lt;/artifactId&gt;<br />&nbsp; &nbsp; &lt;version&gt;2.0.3&lt;/version&gt;<br />&lt;/dependency&gt;</p>\n<p>看结构发现，它已经依赖了mybatis跟jdbc，所以只要加上一个数据库驱动和这个启动类就行了</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"4\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/2019040216110861.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" alt=\"\" width=\"715\" height=\"244\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/2019040216110861.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/2019040216110861.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;715&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;244&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>2.在接口继承Mapper接口，注意宝路径</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"3\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402161347264.png\" alt=\"\" width=\"534\" height=\"137\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402161347264.png\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402161347264.png&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;534&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;137&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>3.在springboot的启动类上加入扫描这个接口的注解，注意路径</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"2\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402161453103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" alt=\"\" width=\"984\" height=\"260\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402161453103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402161453103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;984&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;260&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>因为这个启动类不知道我们的表名称是什么,主键是什么，所以还需要我们告诉他，在实体类上添加 <strong>@Table(name=\"表名\")</strong> 注解，在实体类是注解的属性上加上@id注解，主键是自增的需要在属性上加上@Id @KeySql(useGeneratedKeys = true)两个注解</p>\n<p>如果不需要其中的某些属性不作为查询语句的话添加：@Transient&nbsp;</p>\n<p>是时候测试一下了：</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"1\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402171107506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" alt=\"\" width=\"534\" height=\"351\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402171107506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402171107506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;534&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;351&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"0\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402171221438.png\" alt=\"\" width=\"1119\" height=\"67\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402171221438.png\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402171221438.png&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;1119&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;67&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>ok</p>","blogGoods":0,"blogId":"1247366723137474560","blogRead":1,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","blogType":7,"createdTime":"2020-04-07 03:32:55","typeName":"springboot","version":1},"msg":"操作成功!"}
+2020-04-08 23:01:34.524 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 23:01:34.525 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 23:01:34.525 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:01:34.525 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 23:01:34.525 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 23:01:34.729 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 205
+2020-04-08 23:01:34.729 INFO  [http-nio-1000-exec-2]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423893702991872","blogRead":1,"blogTitle":"到底要不要重复造轮子?","createdTime":"2020-04-07 07:20:06","typeName":"java","updateTime":"2020-04-08 14:57:12"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247423253719310336","blogRead":2,"blogTitle":"dubbo监控中心dubbo-simple-monitor安装","createdTime":"2020-04-07 07:17:33","typeName":"dubbo","updateTime":"2020-04-08 14:57:56"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247421732856291328","blogRead":0,"blogTitle":"SpringBoot-thymeleaf模板语法","createdTime":"2020-04-07 07:11:31","typeName":"springboot","updateTime":"2020-04-07 07:11:31"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247366723137474560","blogRead":1,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","createdTime":"2020-04-07 03:32:55","typeName":"springboot","updateTime":"2020-04-08 15:01:30"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1247365394201612288","blogImage":"http://139.9.130.249/group1/M00/00/00/wKgAbl6MeK-AJ7A8AAB28yzuliM104.jpg","blogRead":1,"blogTitle":"java下载字符串","createdTime":"2020-04-07 03:27:38","typeName":"java","updateTime":"2020-04-08 15:01:20"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":5,"totalPage":1},"msg":"操作成功!"}
+2020-04-08 23:01:37.731 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/read/1247366723137474560
+2020-04-08 23:01:37.732 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 23:01:37.732 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:01:37.732 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.readById
+2020-04-08 23:01:37.732 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[1247366723137474560]
+2020-04-08 23:01:39.101 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 1370
+2020-04-08 23:01:39.102 INFO  [http-nio-1000-exec-7]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>在接触这个配置之前，已经觉得mybatis的逆向工程生成已经很方便了，然而今天学到了一个通用mapper配置，在单表的crud，不需要配置xml、接口中的方法。特此来记录一下：</p>\n<p>1.首先在pom文件中添加启动器：</p>\n<p>&lt;!-- 通用mapper --&gt;<br />&lt;dependency&gt;<br />&nbsp; &nbsp; &lt;groupId&gt;tk.mybatis&lt;/groupId&gt;<br />&nbsp; &nbsp; &lt;artifactId&gt;mapper-spring-boot-starter&lt;/artifactId&gt;<br />&nbsp; &nbsp; &lt;version&gt;2.0.3&lt;/version&gt;<br />&lt;/dependency&gt;</p>\n<p>看结构发现，它已经依赖了mybatis跟jdbc，所以只要加上一个数据库驱动和这个启动类就行了</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"4\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/2019040216110861.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" alt=\"\" width=\"715\" height=\"244\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/2019040216110861.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/2019040216110861.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;715&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;244&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>2.在接口继承Mapper接口，注意宝路径</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"3\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402161347264.png\" alt=\"\" width=\"534\" height=\"137\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402161347264.png\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402161347264.png&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;534&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;137&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>3.在springboot的启动类上加入扫描这个接口的注解，注意路径</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"2\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402161453103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" alt=\"\" width=\"984\" height=\"260\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402161453103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402161453103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;984&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;260&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>因为这个启动类不知道我们的表名称是什么,主键是什么，所以还需要我们告诉他，在实体类上添加 <strong>@Table(name=\"表名\")</strong> 注解，在实体类是注解的属性上加上@id注解，主键是自增的需要在属性上加上@Id @KeySql(useGeneratedKeys = true)两个注解</p>\n<p>如果不需要其中的某些属性不作为查询语句的话添加：@Transient&nbsp;</p>\n<p>是时候测试一下了：</p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"1\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402171107506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" alt=\"\" width=\"534\" height=\"351\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402171107506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402171107506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5ODQ4NjA4,size_16,color_FFFFFF,t_70&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;534&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;351&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p><span class=\"cke_widget_wrapper cke_widget_inline cke_widget_image cke_image_nocaption cke_widget_selected\" tabindex=\"-1\" role=\"region\" contenteditable=\"false\" data-cke-widget-wrapper=\"1\" data-cke-filter=\"off\" data-cke-display-name=\"图像\" data-cke-widget-id=\"0\" aria-label=\" 图像 小部件\"><img class=\"has cke_widget_element\" src=\"https://img-blog.csdnimg.cn/20190402171221438.png\" alt=\"\" width=\"1119\" height=\"67\" data-cke-saved-src=\"https://img-blog.csdnimg.cn/20190402171221438.png\" data-cke-widget-data=\"{&amp;quot;hasCaption&amp;quot;:false,&amp;quot;src&amp;quot;:&amp;quot;https://img-blog.csdnimg.cn/20190402171221438.png&amp;quot;,&amp;quot;alt&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;1119&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;67&amp;quot;,&amp;quot;lock&amp;quot;:true,&amp;quot;align&amp;quot;:&amp;quot;none&amp;quot;,&amp;quot;classes&amp;quot;:{&amp;quot;has&amp;quot;:1}}\" data-cke-widget-upcasted=\"1\" data-cke-widget-keep-attr=\"0\" data-widget=\"image\" /><span class=\"cke_reset cke_widget_drag_handler_container\"><img class=\"cke_reset cke_widget_drag_handler\" title=\"点击并拖拽以移动\" role=\"presentation\" draggable=\"true\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" width=\"15\" height=\"15\" data-cke-widget-drag-handler=\"1\" /></span><span class=\"cke_image_resizer\" title=\"点击并拖拽以改变尺寸\">​</span></span></p>\n<p>ok</p>","blogGoods":0,"blogId":"1247366723137474560","blogRead":2,"blogRemark":"测试接口","blogTitle":"spring boot通用mapper配置","blogType":7,"createdTime":"2020-04-07 03:32:55","typeName":"springboot","version":2},"msg":"操作成功!"}
+2020-04-08 23:02:15.517 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /about/read
+2020-04-08 23:02:15.517 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : GET
+2020-04-08 23:02:15.517 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:02:15.517 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.AboutController.read
+2020-04-08 23:02:15.518 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[]
+2020-04-08 23:02:15.806 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 289
+2020-04-08 23:02:15.809 INFO  [http-nio-1000-exec-4]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"aboutContent":"测试内容2","aboutId":2,"aboutRead":1,"aboutTitle":"测试2","createdTime":"2020-04-01 14:57:12","updateTime":"2020-04-07 07:07:00","version":2},"msg":"操作成功!"}
+2020-04-08 23:02:24.231 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:120 -请求地址 : /blog/getByPage
+2020-04-08 23:02:24.231 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:121 -请求方式 : POST
+2020-04-08 23:02:24.232 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:124 -IP : 127.0.0.1
+2020-04-08 23:02:24.232 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:126 -方法 : com.lza.blog.controller.BlogController.getByPage
+2020-04-08 23:02:24.232 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.printRequestLog:128 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={blogTitle=445}, sortColumn=created_time, sortMethod=desc)]
+2020-04-08 23:02:26.638 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAround:74 -耗时 : 2407
+2020-04-08 23:02:26.639 INFO  [http-nio-1000-exec-9]com.lza.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{"blogTitle":"445"},"sortColumn":"created_time","sortMethod":"desc","totalCount":0,"totalPage":0},"msg":"操作成功!"}
