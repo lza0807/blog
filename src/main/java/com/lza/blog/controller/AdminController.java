@@ -65,7 +65,7 @@ public class AdminController {
      * 查询管理员信息
      * @return
      */
-    @RequestMapping(value = "/getAdminInfo",method = RequestMethod.GET)
+    @RequestMapping(value = "/getAdmin",method = RequestMethod.GET)
     public Result<Admin> getAdminInfo(){
         Admin admin = this.adminService.getAdminInfo();
         return new Result<>(admin);
@@ -76,7 +76,7 @@ public class AdminController {
      * @param admin
      * @return
      */
-    @RequestMapping(value = "/updateAdminInfo",method = RequestMethod.PUT)
+    @RequestMapping(value = "/updateInfo",method = RequestMethod.PUT)
     public Result<Object> updateAdminInfo(@RequestBody Admin admin){
         this.adminService.updateAdminInfo(admin);
         return new Result<>("更新成功");

@@ -1,1 +1,23 @@
 2020-04-08 00:04:23.264 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 00:16:57.793 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /admin/getAdmin
+2020-04-08 00:17:11.943 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /admin/getAdmin
+2020-04-08 00:18:35.806 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 00:18:46.414 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /admin/updateInfo
+2020-04-08 00:18:52.303 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /admin/updateInfo
+2020-04-08 00:20:13.662 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 00:20:15.548 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 00:20:34.589 WARN  [http-nio-1000-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-08 00:20:39.975 WARN  [http-nio-1000-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-08 00:20:47.028 WARN  [http-nio-1000-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-08 00:24:53.046 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 00:25:22.182 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /user/resetPwd
+2020-04-08 00:28:23.070 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getByPage
+2020-04-08 10:10:04.429 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /user/resetPwd
+2020-04-08 10:31:54.331 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 10:34:30.686 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 10:38:36.687 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-08 10:40:44.065 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getByPage
+2020-04-08 10:41:02.642 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getByPage
+2020-04-08 10:41:07.950 WARN  [http-nio-1000-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-08 10:41:09.582 WARN  [http-nio-1000-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-08 10:41:11.160 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /link/list

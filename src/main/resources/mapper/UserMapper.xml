@@ -54,7 +54,7 @@
             ,user_email = #{userEmail}
         </if>
         where user_id = #{userId}
-        and deleted = 0
+        and version = #{version}
     </update>
 
     <select id="getById" resultMap="BaseResultMap">
@@ -117,5 +117,14 @@
         <if test="params.userEmail!=null and params.userEmail!=''">
             and user_email like CONCAT(#{params.userEmail}, '%')
         </if>
+    </select>
+
+    <select id="getUserByIds" resultMap="BaseResultMap">
+        select user_id,version from bl_user
+        <where>
+            <foreach collection="list" item="id" separator="," open="user_id in (" close=")">
+                 #{id}
+            </foreach>
+        </where>
     </select>
 </mapper>

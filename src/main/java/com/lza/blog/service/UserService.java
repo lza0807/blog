@@ -4,6 +4,8 @@ package com.lza.blog.service;
 import com.lza.blog.pojo.User;
 import com.lza.blog.utils.Page;
 
+import java.util.List;
+
 /**
  * <p>
  * 用户表服务层接口
@@ -50,4 +52,11 @@ public interface UserService {
      * @return
      */
     Page<User> getByPage(Page<User> page);
+
+    /**
+     * 重置密码
+     * @param userIds
+     * @return
+     */
+    void resetPwd(List<Integer> userIds);
 }

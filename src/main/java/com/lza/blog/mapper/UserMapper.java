@@ -58,4 +58,11 @@ public interface UserMapper{
      * @return
      */
     int getCountByPage(Page<User> page);
+
+    /**
+     * 根据ids查询所有用户
+     * @param userIds
+     * @return
+     */
+    List<User> getUserByIds(List<Integer> userIds);
 }

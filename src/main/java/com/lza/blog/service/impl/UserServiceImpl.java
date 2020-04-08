@@ -5,6 +5,7 @@ import com.lza.blog.mapper.UserMapper;
 import com.lza.blog.pojo.Music;
 import com.lza.blog.pojo.User;
 import com.lza.blog.service.UserService;
+import com.lza.blog.utils.Md5Utils;
 import com.lza.blog.utils.Page;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,5 +60,15 @@ public class UserServiceImpl implements UserService {
         int totalCount = userMapper.getCountByPage(page);
         page.setTotalCount(totalCount);
         return page;
+    }
+
+    @Override
+    public void resetPwd(List<Integer> userIds) {
+        //根据ids查询所有用户
+        List<User> userList = userMapper.getUserByIds(userIds);
+        userList.forEach(e->{
+            e.setPassword(Md5Utils.toMD5("123456"));
+            userMapper.update(e);
+        });
     }
 }

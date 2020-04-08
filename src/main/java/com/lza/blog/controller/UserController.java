@@ -73,7 +73,7 @@ public class UserController {
      * @param page
      * @return
      */
-    @RequestMapping(value = "/getByPage",method = RequestMethod.GET)
+    @RequestMapping(value = "/getByPage",method = RequestMethod.POST)
     public Result<Page<User>> getByPage(@RequestBody Page<User> page){
         String sortColumn = page.getSortColumn();
         if (StringUtils.isNotBlank(sortColumn)){
@@ -86,6 +86,17 @@ public class UserController {
         }
         page = this.UserService.getByPage(page);
         return new Result<>(page);
+    }
+
+    /**
+     * 重置密码
+     * @param userIds
+     * @return
+     */
+    @RequestMapping(value = "/resetPwd",method = RequestMethod.PUT)
+    public Result<Object> resetPwd(@RequestBody List<Integer> userIds){
+        UserService.resetPwd(userIds);
+        return new Result<>("密码重置成功!");
     }
 
 }
