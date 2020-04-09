@@ -19,7 +19,7 @@ public class LoginInterceptor implements HandlerInterceptor {
     /**
      * 放行的白名单
      */
-   /* private static String[] whiteList = {
+    private static String[] whiteList = {
             "/admin/login",
             "/user/login",
             "/user/register",
@@ -33,13 +33,13 @@ public class LoginInterceptor implements HandlerInterceptor {
             "/blog/getByPage",
             "/comment/getByBlog",
             "/admin/getAdmin"
-    };*/
+    };
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-       /* if (containsWhiteList(request.getRequestURI())) {
+        if (containsWhiteList(request.getRequestURI())) {
             return true;
-        }*/
+        }
         // 获取token
         String token = request.getHeader("Authorization");
         if (StringUtils.isNotBlank(token)) {
@@ -59,13 +59,13 @@ public class LoginInterceptor implements HandlerInterceptor {
      * @param s
      * @return
      */
-    /*private boolean containsWhiteList(String s) {
+    private boolean containsWhiteList(String s) {
         for (String url : whiteList) {
             if (s.contains(url)) {
                 return true;
             }
         }
         return false;
-    }*/
+    }
 
 }

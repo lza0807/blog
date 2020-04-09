@@ -109,4 +109,14 @@ public class MusicController {
         return new Result<>(page);
     }
 
+    /**
+     * 查询所有音乐
+     * @return
+     */
+    @RequestMapping(value = "/getList",method = RequestMethod.GET)
+    public Result<List<Music>> getList(){
+        List<Music> musicList = MusicService.getList();
+        return new Result<>(musicList);
+    }
+
 }

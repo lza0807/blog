@@ -3,6 +3,9 @@ package com.lza.blog.service;
 
 import com.lza.blog.pojo.Music;
 import com.lza.blog.utils.Page;
+import com.lza.blog.utils.Result;
+
+import java.util.List;
 
 /**
  * <p>
@@ -62,4 +65,10 @@ public interface MusicService {
      * @return
      */
     Page<Music> getByPage(Page<Music> page);
+
+    /**
+     * 查询所有音乐
+     * @return
+     */
+    List<Music> getList();
 }

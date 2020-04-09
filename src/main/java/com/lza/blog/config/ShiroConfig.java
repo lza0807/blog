@@ -40,6 +40,10 @@ public class ShiroConfig {
          */
         Map<String, String> filterMap = Maps.newHashMap();
         filterMap.put("/*/login", "anon");
+        filterMap.put("/link/list", "anon");
+        filterMap.put("/music/getList", "anon");
+        filterMap.put("/about/read", "anon");
+        filterMap.put("/admin/getAdmin", "anon");
         filterMap.put("/**", "authc");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);

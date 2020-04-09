@@ -58,4 +58,9 @@ public interface MusicMapper {
      * @return
      */
     int getCountByPage(Page<Music> page);
+    /**
+     * 查询所有音乐
+     * @return
+     */
+    List<Music> getList();
 }

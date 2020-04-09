@@ -125,5 +125,17 @@
         </if>
     </select>
 
+    <select id="getList" resultMap="BaseResultMap">
+        select
+        id,
+        name,
+        artist,
+        url,
+        cover,
+        lrc
+        from bl_music
+        where deleted = 0
+        and enable = 1
+    </select>
 
 </mapper>

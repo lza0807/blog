@@ -77,4 +77,9 @@ public class MusicServiceImpl implements MusicService {
         page.setTotalCount(totalCount);
         return page;
     }
+
+    @Override
+    public List<Music> getList() {
+        return musicMapper.getList();
+    }
 }
