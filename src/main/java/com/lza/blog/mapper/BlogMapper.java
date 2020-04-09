@@ -68,4 +68,10 @@ public interface BlogMapper {
      * @return
      */
     List<BlogVo> recomRead();
+
+    /**
+     * 查询时间轴
+     * @return
+     */
+    List<BlogVo> getTimeLine();
 }

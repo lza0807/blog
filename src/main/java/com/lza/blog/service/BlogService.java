@@ -69,4 +69,10 @@ public interface BlogService {
      * @return
      */
     List<BlogVo> recomRead();
+
+    /**
+     * 查询时间抽
+     * @return
+     */
+    List<BlogVo> getTimeLine();
 }

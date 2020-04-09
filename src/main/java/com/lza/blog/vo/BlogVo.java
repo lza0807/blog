@@ -13,4 +13,9 @@ import java.io.Serializable;
 @Data
 public class BlogVo extends Blog implements Serializable{
     private String typeName;
+
+    /**
+     * 发布月份
+     */
+    private String blogMonth;
 }

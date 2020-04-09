@@ -129,4 +129,9 @@ public class BlogServiceImpl implements BlogService {
 
         return blogMapper.recomRead();
     }
+
+    @Override
+    public List<BlogVo> getTimeLine() {
+        return blogMapper.getTimeLine();
+    }
 }

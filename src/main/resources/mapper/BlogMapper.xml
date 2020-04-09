@@ -32,8 +32,14 @@
         <result column="blog_remark" property="blogRemark"/>
         <result column="blog_comment" property="blogComment"/>
         <result column="blog_source" property="blogSource"/>
+        <result column="blog_month" property="blogMonth"/>
         <result column="created_time" property="createdTime"/>
         <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <resultMap id="TiemLineResultMap" type="com.lza.blog.vo.TimeLineVo">
+        <result column="blog_month" property="month"></result>
+        <collection property="list" resultMap="VoResultMap"></collection>
     </resultMap>
 
     <!-- 通用查询结果列 -->
@@ -129,6 +135,13 @@
         where  b.deleted = 0 and t.deleted = 0
         order by (blog_goods+blog_read) desc
         limit 3
+    </select>
+    <select id="getTimeLine" resultMap="VoResultMap">
+        select
+        blog_id,blog_title,created_time,
+        date_format(created_time,'%Y-%m') as blog_month
+        from bl_blog
+        order by created_time desc
     </select>
 
 </mapper>
