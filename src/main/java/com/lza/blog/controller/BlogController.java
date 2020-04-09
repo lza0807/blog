@@ -100,4 +100,15 @@ public class BlogController {
         return new Result<>(page);
     }
 
+    /**
+     * 推荐阅读
+     * @param
+     * @return
+     */
+    @RequestMapping(value = "/recomRead",method = RequestMethod.GET)
+    public Result<List<BlogVo>> recomRead(){
+        List<BlogVo> blogVoList = blogService.recomRead();
+        return new Result<>(blogVoList);
+    }
+
 }

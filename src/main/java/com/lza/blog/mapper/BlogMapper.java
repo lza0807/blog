@@ -62,4 +62,10 @@ public interface BlogMapper {
      * @return
      */
     int getCountByPage(Page<BlogVo> page);
+
+    /**
+     * 推荐阅读
+     * @return
+     */
+    List<BlogVo> recomRead();
 }

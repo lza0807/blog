@@ -120,4 +120,15 @@
         </if>
     </select>
 
+    <select id="recomRead" resultMap="VoResultMap">
+        select
+        blog_id, blog_title,blog_image, blog_goods, blog_read, blog_collection,
+        blog_remark, blog_comment, blog_source, created_time,type_name
+        from bl_blog b inner join bl_type t
+        on b.blog_type = t.type_id
+        where  b.deleted = 0 and t.deleted = 0
+        order by (blog_goods+blog_read) desc
+        limit 3
+    </select>
+
 </mapper>

@@ -5,6 +5,8 @@ import com.lza.blog.pojo.Blog;
 import com.lza.blog.utils.Page;
 import com.lza.blog.vo.BlogVo;
 
+import java.util.List;
+
 /**
  * <p>
  * 博客表服务层接口
@@ -61,4 +63,10 @@ public interface BlogService {
      * @return
      */
     Page<BlogVo> getByPage(Page<BlogVo> page);
+
+    /**
+     * 推荐阅读
+     * @return
+     */
+    List<BlogVo> recomRead();
 }
