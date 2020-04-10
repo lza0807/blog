@@ -25,12 +25,12 @@ public class ShiroUtils {
      *
      * @return
      */
-    public static Admin getLoginUser() {
+    public static Object getLoginUser() {
         Session session = SecurityUtils.getSubject().getSession();
         SimplePrincipalCollection principalCollection = (SimplePrincipalCollection) session.getAttribute(DefaultSubjectContext.PRINCIPALS_SESSION_KEY);
         if (principalCollection == null) {
             return null;
         }
-        return (Admin) principalCollection.getPrimaryPrincipal();
+        return  principalCollection.getPrimaryPrincipal();
     }
 }

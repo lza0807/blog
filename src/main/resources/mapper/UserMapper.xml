@@ -127,4 +127,11 @@
             </foreach>
         </where>
     </select>
+
+    <select id="isNotExist" resultMap="BaseResultMap">
+        select
+        user_id, username,password, name, sex, header,deleted, nickname, user_email, created_time, update_time
+        from bl_user
+        where username = #{username}
+    </select>
 </mapper>

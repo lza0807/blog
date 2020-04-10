@@ -57,7 +57,7 @@ public class AdminController {
      */
     @RequestMapping(value = "/info",method = RequestMethod.GET)
     public Result<Admin> getUserInfo(){
-        Admin loginAdmin = ShiroUtils.getLoginUser();
+        Admin loginAdmin = (Admin) ShiroUtils.getLoginUser();
         return new Result<>(loginAdmin);
     }
 

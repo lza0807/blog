@@ -1,6 +1,8 @@
 package com.lza.blog.service.impl;
 
 
+import com.lza.blog.enums.ResultEnum;
+import com.lza.blog.exception.BlogException;
 import com.lza.blog.mapper.UserMapper;
 import com.lza.blog.pojo.Music;
 import com.lza.blog.pojo.User;
@@ -70,5 +72,21 @@ public class UserServiceImpl implements UserService {
             e.setPassword(Md5Utils.toMD5("123456"));
             userMapper.update(e);
         });
+    }
+
+    @Override
+    public void register(User user) {
+        //首先查看是否存在相同的用户名
+        User u = userMapper.isNotExist(user.getUsername());
+        if (u!=null){
+            throw new BlogException(ResultEnum.PARAMS_ERROR.getCode(),"用户名已存在");
+        }
+        userMapper.save(user);
+    }
+
+    @Override
+    public User getUserByName(String username) {
+
+        return userMapper.isNotExist(username);
     }
 }

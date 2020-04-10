@@ -1,312 +1,328 @@
-2020-04-09 14:35:52.202 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 14:35:55.741 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getByPage
-2020-04-09 14:36:35.136 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 14:36:35.410 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /music/getList
-2020-04-09 14:39:38.231 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 14:39:38.481 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /music/getList
-2020-04-09 14:40:24.058 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 14:40:24.298 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /music/getList
-2020-04-09 15:08:18.844 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247423893702991872
-2020-04-09 15:08:18.844 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247423893702991872
-2020-04-09 15:08:18.844 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247423893702991872
-2020-04-09 15:14:22.947 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 15:14:41.430 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247423893702991872
-2020-04-09 15:14:41.435 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247423893702991872
-2020-04-09 15:14:41.435 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247423893702991872
-2020-04-09 15:14:41.436 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 15:14:41.741 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /music/getList
-2020-04-09 15:19:35.116 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getTimeLine
-2020-04-09 15:38:08.488 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:38:08.489 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:38:08.488 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:38:35.298 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:38:35.299 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:38:35.427 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:38:53.021 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 15:39:15.516 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:54:14.503 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:54:14.503 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:54:14.743 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:54:29.964 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:54:29.978 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 15:54:29.978 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:02:38.051 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:02:38.051 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:02:38.166 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:02:56.736 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:02:56.736 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:02:56.949 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:03:18.423 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:19.826 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:21.666 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:21.897 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:21.915 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:22.061 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:22.238 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:22.410 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:22.565 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:03:27.129 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:06:22.502 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:06:22.753 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:06:23.540 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:06:24.283 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:06:24.513 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /user/login
-2020-04-09 16:06:29.542 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:29.739 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:29.744 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:38.947 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:45.291 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:47.836 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:51.474 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:06:54.327 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:11:52.907 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:11:52.907 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:11:53.059 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:11:56.189 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:04.306 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:04.306 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:04.548 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:15.486 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:16.585 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:24.716 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:26.320 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:26.649 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:31.429 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:12:34.711 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:23:26.308 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:23:26.309 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:25:52.733 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:25:52.939 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:27:08.101 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:27:08.304 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:29:11.293 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:29:11.494 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:29:37.498 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:29:37.617 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:30:16.373 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:30:16.524 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:30:40.965 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:30:41.752 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:30:43.658 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:30:44.757 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:31:09.273 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:31:09.278 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:31:09.279 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:33:11.645 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:33:11.645 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:33:11.842 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:34:15.966 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:34:15.967 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:34:16.218 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:35:26.699 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:35:26.700 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:35:26.949 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:35:47.207 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:35:47.207 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:35:47.485 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:32.801 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:44.743 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:44.745 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:44.745 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:53.182 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:53.464 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:53.467 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:42:59.360 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:44:37.184 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:44:37.184 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:45:14.090 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:45:14.090 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:45:26.638 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:45:26.763 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:46:52.671 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:46:55.433 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:46:55.434 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 16:46:55.591 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:12.624 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:13.249 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:14.483 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:15.009 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:16.030 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:16.281 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:16.615 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:17.285 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:37.702 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:37.702 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:22:37.967 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:43:52.908 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:43:52.908 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:43:53.091 WARN  [http-nio-1000-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-04-09 18:44:04.913 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:44:04.913 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:44:05.082 WARN  [http-nio-1000-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-04-09 18:44:17.265 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:44:17.265 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:44:17.412 WARN  [http-nio-1000-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-04-09 18:45:29.611 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:45:29.612 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:46:08.742 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:46:08.742 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:49:03.044 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:49:06.368 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 18:49:24.314 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 18:54:45.168 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 18:57:12.241 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 18:57:17.274 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getTimeLine
-2020-04-09 20:47:18.555 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 20:49:52.491 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247365394201612288
-2020-04-09 20:49:52.491 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247365394201612288
-2020-04-09 20:49:52.492 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247365394201612288
-2020-04-09 20:53:34.112 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 20:56:05.415 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 20:56:47.085 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp;jsessionid=8773E407A42F6848603F51F5FD90E36A
-2020-04-09 20:56:47.101 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp;jsessionid=99B5FC0292565AFACCB9A44745AF2DE2
-2020-04-09 20:59:37.434 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 20:59:37.434 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp;jsessionid=99B5FC0292565AFACCB9A44745AF2DE2
-2020-04-09 21:01:11.845 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:01:11.846 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:01:31.436 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:01:31.444 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:05:44.228 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:05:44.229 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:07:02.979 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:07:11.324 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:07:11.331 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:07:11.336 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:07:15.778 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:07:18.824 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:07:19.579 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:07:31.984 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:07:31.984 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:09:40.908 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:09:40.920 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:09:49.907 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:09:54.651 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:09:56.290 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /login.jsp
-2020-04-09 21:10:59.538 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:10:59.539 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:11:20.005 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:11:20.280 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:14:09.278 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:14:20.595 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:14:22.917 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:14:29.579 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:15:43.021 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 21:15:58.891 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getTimeLine
-2020-04-09 21:19:53.085 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/recomRead
-2020-04-09 21:21:46.515 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:01.996 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:02.004 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:02.004 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:02.004 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:16.863 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:16.866 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:16.867 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:22:16.868 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:23:00.110 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:23:10.951 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:23:49.435 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:05.610 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:10.005 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:10.006 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:10.006 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:10.007 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:18.572 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:18.589 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:18.589 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:24:18.590 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:25:07.951 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:25:07.951 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:25:07.951 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:25:08.181 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:25:11.890 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:26:00.283 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:27:19.232 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:28:37.522 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:28:50.296 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:28:56.076 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:01.831 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:02.136 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:02.140 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:02.140 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:38.106 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:38.413 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:38.413 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:38.413 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:50.106 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:50.114 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:50.114 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:29:50.114 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:52.921 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:52.921 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:52.921 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:53.073 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:59.254 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:59.258 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:59.258 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:30:59.259 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:13.133 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:13.133 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:13.133 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:13.133 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:19.814 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:30.086 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:31.824 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:34.601 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:34.605 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:34.605 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:33:34.605 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:04.078 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:04.084 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:04.089 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:04.089 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:12.964 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:13.272 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:13.272 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:13.273 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:15.204 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:15.509 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:15.509 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:15.509 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:17.448 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:17.455 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:17.455 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:36:17.457 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:05.420 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:05.546 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:05.548 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:49.498 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:49.498 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:49.499 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:54.359 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:54.360 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:45:54.360 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:06.592 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:06.592 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:06.592 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:14.964 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:14.964 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:14.964 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:20.777 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:20.777 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:20.781 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:27.530 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:27.530 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:46:27.530 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:47:12.451 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:47:12.451 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:47:12.452 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:47:23.008 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:47:23.008 WARN  [http-nio-1000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:47:23.008 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:34.130 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:42.882 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:42.882 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:42.883 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:44.683 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:47.692 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 21:48:58.339 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 22:10:42.497 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 22:51:02.354 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 22:51:02.354 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 22:51:02.354 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
-2020-04-09 23:48:48.669 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-10 00:11:20.672 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-10 00:13:41.723 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-10 00:13:51.134 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp
+2020-04-10 10:02:44.388 WARN  [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilterFactoryBean' defined in class path resource [com/lza/blog/config/ShiroConfig.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/lza/blog/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityManager' defined in class path resource [com/lza/blog/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'securityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminRealm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminMapper' defined in file [D:\software\JAVA\blog\target\classes\com\lza\blog\mapper\AdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-04-10 10:23:10.095 WARN  [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilterFactoryBean' defined in class path resource [com/lza/blog/config/ShiroConfig.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/lza/blog/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityManager' defined in class path resource [com/lza/blog/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'securityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminRealm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminMapper' defined in file [D:\software\JAVA\blog\target\classes\com\lza\blog\mapper\AdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-04-10 10:31:09.595 WARN  [http-nio-1000-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-04-10 10:31:19.609 WARN  [http-nio-1000-exec-10]org.apache.shiro.authc.AbstractAuthenticator.authenticate:216 -Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.GetConnectionTimeoutException: wait millis 10001, active 0, maxActive 20, creating 1
+### The error may exist in file [D:\software\JAVA\blog\target\classes\mapper\AdminMapper.xml]
+### The error may involve com.lza.blog.mapper.AdminMapper.getUserByName
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.GetConnectionTimeoutException: wait millis 10001, active 0, maxActive 20, creating 1
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy74.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:83)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy75.getUserByName(Unknown Source)
+	at com.lza.blog.service.impl.AdminServiceImpl.getUserByName(AdminServiceImpl.java:37)
+	at com.lza.blog.realm.AdminRealm.doGetAuthenticationInfo(AdminRealm.java:43)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.lza.blog.controller.UserController.login(UserController.java:130)
+	at com.lza.blog.controller.UserController$$FastClassBySpringCGLIB$$389fb775.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.lza.blog.controller.UserController$$EnhancerBySpringCGLIB$$3102605d.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.GetConnectionTimeoutException: wait millis 10001, active 0, maxActive 20, creating 1
+### The error may exist in file [D:\software\JAVA\blog\target\classes\mapper\AdminMapper.xml]
+### The error may involve com.lza.blog.mapper.AdminMapper.getUserByName
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.GetConnectionTimeoutException: wait millis 10001, active 0, maxActive 20, creating 1
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 98 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.GetConnectionTimeoutException: wait millis 10001, active 0, maxActive 20, creating 1
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 105 common frames omitted
+Caused by: com.alibaba.druid.pool.GetConnectionTimeoutException: wait millis 10001, active 0, maxActive 20, creating 1
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionInternal(DruidDataSource.java:1510)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1255)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5007)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:680)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5003)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1233)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1225)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:90)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 115 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 9 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 12 common frames omitted
+2020-04-10 10:31:55.224 WARN  [http-nio-1000-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-04-10 10:32:15.228 WARN  [http-nio-1000-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-04-10 13:25:13.996 WARN  [http-nio-1000-exec-4]org.apache.shiro.authc.AbstractAuthenticator.authenticate:216 -Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+com.lza.blog.exception.BlogException: 用户不存在!
+	at com.lza.blog.realm.AdminRealm.doGetAuthenticationInfo(AdminRealm.java:60)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.lza.blog.controller.UserController.login(UserController.java:130)
+	at com.lza.blog.controller.UserController$$FastClassBySpringCGLIB$$389fb775.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lza.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.lza.blog.controller.UserController$$EnhancerBySpringCGLIB$$356250f9.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-10 13:42:09.238 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /user/commentAndCollectionCount
+2020-04-10 13:42:12.896 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /blog/getCollectionList
+2020-04-10 13:42:14.179 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getList
+2020-04-10 13:42:17.371 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /user/commentAndCollectionCount
+2020-04-10 13:42:26.761 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for PUT /user/updateInfo
+2020-04-10 13:42:36.881 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /user/commentAndCollectionCount
+2020-04-10 13:42:46.927 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /user/commentAndCollectionCount
+2020-04-10 13:42:53.566 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /user/commentAndCollectionCount
+2020-04-10 13:56:02.478 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /user/commentAndCollectionCount
+2020-04-10 13:56:04.770 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /blog/getCollectionList
+2020-04-10 13:56:05.739 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /comment/getList
+2020-04-10 13:56:09.289 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247365394201612288
+2020-04-10 13:56:09.289 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247365394201612288
+2020-04-10 13:56:09.289 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247365394201612288
+2020-04-10 13:56:12.928 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /blog/good
+2020-04-10 13:56:48.653 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247423893702991872
+2020-04-10 13:56:48.653 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247423893702991872
+2020-04-10 13:56:48.653 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247423893702991872
+2020-04-10 13:57:03.629 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247365394201612288
+2020-04-10 13:57:03.629 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247365394201612288
+2020-04-10 13:57:03.629 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247365394201612288
+2020-04-10 14:01:10.287 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247365394201612288
+2020-04-10 14:01:10.287 WARN  [http-nio-1000-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247365394201612288
+2020-04-10 14:01:10.588 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247365394201612288
+2020-04-10 14:01:27.903 WARN  [http-nio-1000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getGood/1247423253719310336
+2020-04-10 14:01:27.903 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /comment/getByBlog/1247423253719310336
+2020-04-10 14:01:27.905 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /blog/getCollection/1247423253719310336
+2020-04-10 14:01:31.867 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /blog/good
+2020-04-10 14:01:32.119 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /blog/good
+2020-04-10 19:58:13.850 WARN  [http-nio-1000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for OPTIONS /login.jsp

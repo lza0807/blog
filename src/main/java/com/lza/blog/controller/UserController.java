@@ -1,16 +1,25 @@
 package com.lza.blog.controller;
 
 import com.lza.blog.enums.ResultEnum;
+import com.lza.blog.mapper.UserMapper;
 import com.lza.blog.pojo.User;
 import com.lza.blog.service.UserService;
 import com.lza.blog.utils.Page;
 import com.lza.blog.utils.Result;
 import com.lza.blog.utils.StringUtils;
+import javafx.geometry.Pos;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.Serializable;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Description: 音乐
@@ -97,6 +106,41 @@ public class UserController {
     public Result<Object> resetPwd(@RequestBody List<Integer> userIds){
         UserService.resetPwd(userIds);
         return new Result<>("密码重置成功!");
+    }
+
+    /**
+     * 注册用户
+     * @param user
+     * @return
+     */
+    @RequestMapping(value = "/register",method = RequestMethod.POST)
+    public Result<Object> register(@RequestBody User user){
+        UserService.register(user);
+        return new Result<>("注册成功！");
+    }
+
+    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    public Result<Object> login(@RequestBody User user){
+        if (user == null || StringUtils.isBlank(user.getUsername()) || StringUtils.isBlank(user.getPassword())) {
+            return new Result<>(ResultEnum.PARAMS_NULL.getCode(), "用户名或密码错误！");
+        }
+        Subject subject = SecurityUtils.getSubject();
+        AuthenticationToken authenticationToken = new UsernamePasswordToken(user.getUsername(), user.getPassword());
+        try {
+            subject.login(authenticationToken);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result<>(ResultEnum.PARAMS_NULL.getCode(), "用户名或密码错误！");
+        }
+        //登录成功
+        Serializable sessionId = subject.getSession().getId();
+        User u = (User) subject.getPrincipal();
+        u.setPassword("");
+        u.setDeleted(null);
+        Map<String, Object> returnMap = new HashMap<>(2);
+        returnMap.put("token", sessionId);
+        returnMap.put("user", u);
+        return new Result<>(returnMap);
     }
 
 }

@@ -65,4 +65,11 @@ public interface UserMapper{
      * @return
      */
     List<User> getUserByIds(List<Integer> userIds);
+
+    /**
+     * 是否存在
+     * @param username
+     * @return
+     */
+    User isNotExist(String username);
 }
