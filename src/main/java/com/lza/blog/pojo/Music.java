@@ -3,7 +3,7 @@ package com.lza.blog.pojo;
 import lombok.Data;
 
 /**
- * @Author: 杨德石
+ * @Author: 刘子安
  * @Date: 2020/2/9 14:45
  * @Version 1.0
  */

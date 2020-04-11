@@ -119,6 +119,11 @@ public class UserController {
         return new Result<>("注册成功！");
     }
 
+    /**
+     * 登录用户
+     * @param user
+     * @return
+     */
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public Result<Object> login(@RequestBody User user){
         if (user == null || StringUtils.isBlank(user.getUsername()) || StringUtils.isBlank(user.getPassword())) {
@@ -129,7 +134,6 @@ public class UserController {
         try {
             subject.login(authenticationToken);
         } catch (Exception e) {
-            e.printStackTrace();
             return new Result<>(ResultEnum.PARAMS_NULL.getCode(), "用户名或密码错误！");
         }
         //登录成功

@@ -2,6 +2,8 @@ package com.lza.blog.controller;
 
 import com.lza.blog.enums.ResultEnum;
 import com.lza.blog.pojo.Blog;
+import com.lza.blog.pojo.BlogCollection;
+import com.lza.blog.pojo.BlogGoods;
 import com.lza.blog.utils.Page;
 import com.lza.blog.utils.StringUtils;
 import com.lza.blog.vo.BlogVo;
@@ -150,6 +152,69 @@ public class BlogController {
             }
         });
         return new Result<>(timeList);
+    }
+
+
+
+    /**
+     * 点赞
+     * @param blogGoods
+     * @return
+     */
+    @RequestMapping(value = "/good", method = RequestMethod.POST)
+    public Result<Object> good(@RequestBody BlogGoods blogGoods) {
+        if(StringUtils.isBlank(blogGoods.getBlogId())) {
+            return new Result<>("博客id不能为空！");
+        }
+        blogService.goodByBlogAndUser(blogGoods);
+        return new Result<>("点赞成功！");
+    }
+
+    /**
+     * 根据博客id和当前登录用户查询点赞记录
+     * @param blogId
+     * @return
+     */
+    @RequestMapping(value = "/getGood/{blogId}", method = RequestMethod.GET)
+    public Result<Integer> getGood(@PathVariable String blogId) {
+        int count = blogService.getGoodsCount(blogId);
+        return new Result<>(count);
+    }
+
+    /**
+     * 收藏
+     * @param blogCollection
+     * @return
+     */
+    @RequestMapping(value = "/collection", method = RequestMethod.POST)
+    public Result<Object> collection(@RequestBody BlogCollection blogCollection) {
+        if(StringUtils.isBlank(blogCollection.getBlogId())) {
+            return new Result<>("博客id不能为空！");
+        }
+        blogService.collectionByBlogId(blogCollection);
+        return new Result<>("收藏成功！");
+    }
+
+    /**
+     * 根据博客id和当前登录用户查询收藏记录
+     * @param blogId
+     * @return
+     */
+    @RequestMapping(value = "/getCollection/{blogId}", method = RequestMethod.GET)
+    public Result<Integer> getCollection(@PathVariable String blogId) {
+        int count = blogService.getCollectionCount(blogId);
+        return new Result<>(count);
+    }
+
+    /**
+     * 分页查询我的收藏
+     * @param page
+     * @return
+     */
+    @RequestMapping(value = "/getCollectionList", method = RequestMethod.POST)
+    public Result<Page<BlogCollection>> getCollectionList(@RequestBody Page<BlogCollection> page) {
+        page = blogService.getCollectionByPage(page);
+        return new Result<>(page);
     }
 
     /**

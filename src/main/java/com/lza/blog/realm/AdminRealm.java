@@ -27,8 +27,10 @@ public class AdminRealm extends AuthorizingRealm {
 
     @Autowired
     private UserService userService;
+
     /**
      * 授权方法
+     *
      * @param principalCollection
      * @return
      */
@@ -39,6 +41,7 @@ public class AdminRealm extends AuthorizingRealm {
 
     /**
      * 登录认证
+     *
      * @param authenticationToken
      * @return
      * @throws AuthenticationException
@@ -48,18 +51,18 @@ public class AdminRealm extends AuthorizingRealm {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
         String username = token.getUsername();
         Object principal = SecurityUtils.getSubject().getPrincipal();
-        if (principal instanceof Admin){
+        if (principal instanceof Admin) {
             Admin admin = adminService.getUserByName(username);
-            if (admin==null){
-                throw new BlogException(ResultEnum.ERROR.getCode(),"用户不存在!");
+            if (admin == null) {
+                throw new BlogException(ResultEnum.ERROR.getCode(), "用户不存在!");
             }
-            return new SimpleAuthenticationInfo(admin,admin.getPassword(),this.getName());
-        }else {
+            return new SimpleAuthenticationInfo(admin, admin.getPassword(), this.getName());
+        } else {
             User user = userService.getUserByName(username);
-            if (user==null){
-                throw new BlogException(ResultEnum.ERROR.getCode(),"用户不存在!");
+            if (user == null || user.getDeleted() == 1) {
+                throw new BlogException(ResultEnum.ERROR.getCode(), "用户不存在!");
             }
-            return new SimpleAuthenticationInfo(user,user.getPassword(),this.getName());
+            return new SimpleAuthenticationInfo(user, user.getPassword(), this.getName());
         }
 
     }

@@ -2,6 +2,7 @@ package com.lza.blog.pojo;
 
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
 
@@ -23,17 +24,22 @@ public class BlogCollection implements Serializable {
     /**
      * 收藏id
      */
-    private Integer collectionId;
+    @Id
+    private String collectionId;
 
     /**
      * 帖子id
      */
     private String blogId;
 
+    private Blog blog;
+
     /**
      * 用户id
      */
     private Integer userId;
+
+    private User user;
 
     /**
      * 收藏时间

@@ -143,5 +143,10 @@
         from bl_blog
         order by created_time desc
     </select>
+    <update id="updateGoods">
+        update bl_blog set
+        blog_goods = blog_goods + 1
+        where blog_id = #{id}
+    </update>
 
 </mapper>

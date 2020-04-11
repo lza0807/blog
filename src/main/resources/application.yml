@@ -22,6 +22,10 @@ spring:
     multipart:
       max-file-size: 50MB
       max-request-size: 100MB
+  data:
+    mongodb:
+      database: blog
+      host: 139.9.130.249
 fdfs:
   so-timeout: 2500
   connect-timeout: 600

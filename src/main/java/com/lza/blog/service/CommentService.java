@@ -1,6 +1,9 @@
 package com.lza.blog.service;
 
 
+import com.lza.blog.pojo.Comment;
+
+import java.util.List;
 
 /**
  * <p>
@@ -14,5 +17,22 @@ package com.lza.blog.service;
  */
 public interface CommentService {
 
+    /**
+     * 保存帖子评论
+     * @param comment
+     */
+    void save(Comment comment);
 
+    /**
+     * 根据博客id查询评论
+     * @param blogId
+     * @return
+     */
+    List<Comment> getByBlog(String blogId);
+
+    /**
+     * 根据id删除
+     * @param id
+     */
+    void deleteByid(String id);
 }

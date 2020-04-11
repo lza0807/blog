@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * Shiro相关工具类
  *
- * @Author: 杨德石
+ * @Author: 刘子安
  * @Date: 2019/5/9 0009 下午 8:43
  * @Version 1.0
  */

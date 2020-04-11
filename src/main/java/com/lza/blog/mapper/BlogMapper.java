@@ -74,4 +74,12 @@ public interface BlogMapper {
      * @return
      */
     List<BlogVo> getTimeLine();
+
+
+
+    /**
+     * 更新点赞量
+     * @param blogId
+     */
+    void updateGoods(String blogId);
 }

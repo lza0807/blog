@@ -1,8 +1,10 @@
 package com.lza.blog.pojo;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -12,7 +14,6 @@ import java.io.Serializable;
  * @author liuzian
  * @date 2020-3-29 14:04:12
  * @Version 1.0
- *
  */
 @Data
 public class Comment implements Serializable {
@@ -22,7 +23,9 @@ public class Comment implements Serializable {
     /**
      * 评论id
      */
-    private String commentId;
+    @SuppressWarnings("all")
+    @Id
+    private String id;
 
     /**
      * 评论内容
@@ -30,15 +33,24 @@ public class Comment implements Serializable {
     private String commentContent;
 
     /**
-     * 评价人
+     * 评价人id
      */
     private Integer commentUser;
+
+    /**
+     * 用户
+     */
+    private User user;
 
     /**
      * 评论帖子id
      */
     private String commentBlog;
 
+    /**
+     * 博客帖子
+     */
+    private Blog blog;
     /**
      * 点赞数
      */
@@ -50,8 +62,10 @@ public class Comment implements Serializable {
     private String createdTime;
 
     /**
-     * 是否删除，0否1是
+     * 是否评论，存库时，不存这个字段
+     * 当查询用户评论情况时，对这个字段进行赋值
      */
-    private Integer deleted;
+    private boolean commentFlag = false;
+
 
 }

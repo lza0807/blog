@@ -50,6 +50,7 @@ public class ShiroConfig {
         filterMap.put("/blog/read/**", "anon");
         filterMap.put("/about/read", "anon");
         filterMap.put("/admin/getAdmin", "anon");
+        filterMap.put("/comment/getByBlog/**", "anon");
         filterMap.put("/**", "authc");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);

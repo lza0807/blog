@@ -62,7 +62,7 @@
         user_id, username, name, sex, header, nickname, user_email, created_time, update_time, version
         from bl_user
         where user_id = #{userId}
-        and deleted = 0 and version = #{version}
+        and deleted = 0
     </select>
 
     <update id="delete">

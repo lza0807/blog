@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 返回对象
  *
- * @author 杨德石
+ * @author 刘子安
  */
 @Data
 public class Result<T> implements Serializable {
