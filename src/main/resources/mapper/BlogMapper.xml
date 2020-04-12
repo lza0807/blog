@@ -134,7 +134,7 @@
         on b.blog_type = t.type_id
         where  b.deleted = 0 and t.deleted = 0
         order by (blog_goods+blog_read) desc
-        limit 3
+        limit 5
     </select>
     <select id="getTimeLine" resultMap="VoResultMap">
         select

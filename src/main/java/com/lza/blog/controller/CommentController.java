@@ -3,8 +3,10 @@ package com.lza.blog.controller;
 import com.lza.blog.enums.ResultEnum;
 import com.lza.blog.mapper.CommentMapper;
 import com.lza.blog.pojo.Comment;
+import com.lza.blog.pojo.CommentGoods;
 import com.lza.blog.pojo.User;
 import com.lza.blog.service.CommentService;
+import com.lza.blog.utils.Page;
 import com.lza.blog.utils.Result;
 import com.lza.blog.utils.ShiroUtils;
 import com.lza.blog.utils.StringUtils;
@@ -67,6 +69,44 @@ public class CommentController {
     public Result<Object> deleteById(@PathVariable  String id){
         commentService.deleteByid(id);
         return new Result<>("删除成功!");
+    }
+
+    /**
+     * 点赞
+     *
+     * @param commentGoods
+     * @return
+     */
+    @RequestMapping(value = "/good", method = RequestMethod.POST)
+    public Result<Object> good(@RequestBody CommentGoods commentGoods) {
+        if (StringUtils.isBlank(commentGoods.getCommentId())) {
+            return new Result<>("评论id不能为空！");
+        }
+        commentService.goodByCommentIdAndUser(commentGoods);
+        return new Result<>("点赞成功！");
+    }
+
+    /**
+     * 分页查询
+     *
+     * @param page
+     * @return
+     */
+    @RequestMapping(value = "/getList", method = RequestMethod.POST)
+    public Result<Page<Comment>> getList(@RequestBody Page<Comment> page) {
+        page = commentService.getByPage(page);
+        return new Result<>(page);
+    }
+
+    /**
+     * 后台分页查询
+     * @param page
+     * @return
+     */
+    @RequestMapping(value = "/getByPage", method = RequestMethod.POST)
+    public Result<Page<Comment>> getByPage(@RequestBody Page<Comment> page) {
+        page = commentService.getByPageBack(page);
+        return new Result<>(page);
     }
 
 

@@ -2,6 +2,8 @@ package com.lza.blog.service;
 
 
 import com.lza.blog.pojo.Comment;
+import com.lza.blog.pojo.CommentGoods;
+import com.lza.blog.utils.Page;
 
 import java.util.List;
 
@@ -35,4 +37,31 @@ public interface CommentService {
      * @param id
      */
     void deleteByid(String id);
+
+    /**
+     * 根据评论id和用户点赞
+     * @param commentGoods
+     */
+    void goodByCommentIdAndUser(CommentGoods commentGoods);
+
+    /**
+     * 根据评论id查询点赞数
+     * @param commentId
+     * @return
+     */
+    int getGoodsCount(String commentId);
+
+    /**
+     * 分页查询
+     * @param page
+     * @return
+     */
+    Page<Comment> getByPage(Page<Comment> page);
+
+    /**
+     * 后台分页查询
+     * @param page
+     * @return
+     */
+    Page<Comment> getByPageBack(Page<Comment> page);
 }
