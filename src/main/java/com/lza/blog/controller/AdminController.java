@@ -4,15 +4,14 @@ import com.lza.blog.enums.ResultEnum;
 import com.lza.blog.enums.StateEnums;
 import com.lza.blog.pojo.Admin;
 import com.lza.blog.service.AdminService;
+import com.lza.blog.token.UsernamePasswordToken;
 import com.lza.blog.utils.Result;
 import com.lza.blog.utils.ShiroUtils;
 import com.lza.blog.utils.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationToken;
-import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.Serializable;
@@ -37,7 +36,7 @@ public class AdminController {
             return new Result<>(ResultEnum.PARAMS_NULL.getCode(), "用户名或密码错误！");
         }
         Subject subject = SecurityUtils.getSubject();
-        AuthenticationToken authenticationToken = new UsernamePasswordToken(admin.getUsername(), admin.getPassword());
+        AuthenticationToken authenticationToken = new UsernamePasswordToken(admin.getUsername(), admin.getPassword(), StateEnums.ADMIN.getCode());
         try {
             subject.login(authenticationToken);
         } catch (Exception e) {

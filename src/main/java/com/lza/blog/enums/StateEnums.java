@@ -28,7 +28,16 @@ public enum StateEnums {
      * 请求访问状态枚举
      */
     REQUEST_SUCCESS(1,"请求正常"),
-    REQUEST_ERROR(0,"请求异常")
+    REQUEST_ERROR(0,"请求异常"),
+    /**
+     * 用户表示
+     * 0  管理   1 用户
+     */
+    ADMIN(0,"管理员"),
+    USER(1,"普通用户")
+
+
+
     ;
     private Integer code;
     private String msg;
