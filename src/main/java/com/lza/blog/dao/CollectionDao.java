@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * @Author: 杨德石
+ * @Author: 刘子安
  * @Date: 2020/2/16 10:57
  * @Version 1.0
  */

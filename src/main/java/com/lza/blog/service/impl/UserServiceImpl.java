@@ -1,6 +1,8 @@
 package com.lza.blog.service.impl;
 
 
+import com.lza.blog.dao.CollectionDao;
+import com.lza.blog.dao.CommentDao;
 import com.lza.blog.enums.ResultEnum;
 import com.lza.blog.exception.BlogException;
 import com.lza.blog.mapper.UserMapper;
@@ -9,11 +11,14 @@ import com.lza.blog.pojo.User;
 import com.lza.blog.service.UserService;
 import com.lza.blog.utils.Md5Utils;
 import com.lza.blog.utils.Page;
+import com.lza.blog.utils.ShiroUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -31,6 +36,10 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private CommentDao commentDao;
+    @Autowired
+    private CollectionDao collectionDao;
 
 
     @Override
@@ -89,4 +98,19 @@ public class UserServiceImpl implements UserService {
 
         return userMapper.isNotExist(username);
     }
+    @Override
+    public Map<String, Object> getCommentAndCollectionCount() {
+        User user = (User) ShiroUtils.getLoginUser();
+        int commentCount = commentDao.countByCommentUser(user.getUserId());
+        int collectionCount = collectionDao.countByUserId(user.getUserId());
+        Map<String, Object> map = new HashMap<>(4);
+        map.put("commentCount", commentCount);
+        map.put("collectionCount", collectionCount);
+        return map;
+    }
+    @Override
+    public void updateInfo(User user) {
+        userMapper.updateInfo(user);
+    }
+
 }

@@ -5,6 +5,7 @@ import com.lza.blog.pojo.User;
 import com.lza.blog.utils.Page;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -73,4 +74,15 @@ public interface UserService {
      * @return
      */
     User getUserByName(String username);
+
+    /**
+     * 查询评论数和收藏数
+     * @return
+     */
+    Map<String, Object> getCommentAndCollectionCount();
+    /**
+     * 修改个人信息
+     * @param user
+     */
+    void updateInfo(User user);
 }

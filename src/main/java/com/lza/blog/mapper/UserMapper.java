@@ -72,4 +72,10 @@ public interface UserMapper{
      * @return
      */
     User isNotExist(String username);
+
+    /**
+     * 修改个人信息
+     * @param user
+     */
+    void updateInfo(User user);
 }

@@ -1,6 +1,7 @@
 package com.lza.blog.config;
 
 import com.google.common.collect.Maps;
+import com.lza.blog.filters.LoginFilter;
 import com.lza.blog.realm.AdminRealm;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
@@ -29,6 +30,7 @@ public class ShiroConfig {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
 
         shiroFilterFactoryBean.setSecurityManager(securityManager);
+        shiroFilterFactoryBean.getFilters().put("authc", new LoginFilter());
 
         /**
          * 常用过滤器

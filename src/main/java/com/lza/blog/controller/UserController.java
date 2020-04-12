@@ -1,13 +1,11 @@
 package com.lza.blog.controller;
 
 import com.lza.blog.enums.ResultEnum;
-import com.lza.blog.mapper.UserMapper;
 import com.lza.blog.pojo.User;
 import com.lza.blog.service.UserService;
 import com.lza.blog.utils.Page;
 import com.lza.blog.utils.Result;
 import com.lza.blog.utils.StringUtils;
-import javafx.geometry.Pos;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -30,7 +28,7 @@ import java.util.Map;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    private UserService UserService;
+    private UserService userService;
 
     /**
      * 添加
@@ -39,7 +37,7 @@ public class UserController {
      */
     @RequestMapping(value = "/save",method = RequestMethod.POST)
     public Result<Object> save(@RequestBody User user){
-        UserService.save(user);
+        userService.save(user);
         return new Result<>("添加成功！");
     }
 
@@ -50,7 +48,18 @@ public class UserController {
      */
     @RequestMapping(value = "/update",method = RequestMethod.PUT)
     public Result<Object> update(@RequestBody User user){
-        UserService.update(user);
+        userService.update(user);
+        return new Result<>("修改成功！");
+    }
+    /**
+     * 修改个人信息
+     *
+     * @param user
+     * @return
+     */
+    @RequestMapping(value = "/updateInfo", method = RequestMethod.PUT)
+    public Result<Object> updateInfo(@RequestBody User user) {
+        userService.updateInfo(user);
         return new Result<>("修改成功！");
     }
     /**
@@ -60,7 +69,7 @@ public class UserController {
      */
     @RequestMapping(value = "/get/{id}",method = RequestMethod.GET)
     public Result<User> getById(@PathVariable Integer id){
-         User User =UserService.getById(id);
+         User User = userService.getById(id);
         return new Result<>(User);
     }
 
@@ -72,7 +81,7 @@ public class UserController {
      */
     @RequestMapping(value = "/delete/{id}",method = RequestMethod.DELETE)
     public Result<Object> delete(@PathVariable Integer id){
-        UserService.delete(id);
+        userService.delete(id);
         return new Result<>("删除成功!");
     }
 
@@ -93,7 +102,7 @@ public class UserController {
                 return new Result<>(ResultEnum.PARAMS_ERROR.getCode(),"排序参数不合法!");
             }
         }
-        page = this.UserService.getByPage(page);
+        page = this.userService.getByPage(page);
         return new Result<>(page);
     }
 
@@ -104,7 +113,7 @@ public class UserController {
      */
     @RequestMapping(value = "/resetPwd",method = RequestMethod.PUT)
     public Result<Object> resetPwd(@RequestBody List<Integer> userIds){
-        UserService.resetPwd(userIds);
+        userService.resetPwd(userIds);
         return new Result<>("密码重置成功!");
     }
 
@@ -115,7 +124,7 @@ public class UserController {
      */
     @RequestMapping(value = "/register",method = RequestMethod.POST)
     public Result<Object> register(@RequestBody User user){
-        UserService.register(user);
+        userService.register(user);
         return new Result<>("注册成功！");
     }
 
@@ -145,6 +154,15 @@ public class UserController {
         returnMap.put("token", sessionId);
         returnMap.put("user", u);
         return new Result<>(returnMap);
+    }
+    /**
+     * 查询当前用户的评论数和收藏数
+     * @return
+     */
+    @RequestMapping(value = "/commentAndCollectionCount", method = RequestMethod.GET)
+    public Result<Map<String, Object>> commentAndCollectionCount() {
+        Map<String, Object> countMap = userService.getCommentAndCollectionCount();
+        return new Result<>(countMap);
     }
 
 }
