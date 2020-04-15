@@ -125,8 +125,8 @@ public class UserController {
      */
     @RequestMapping(value = "/register",method = RequestMethod.POST)
     public Result<Object> register(@RequestBody User user){
-        userService.register(user);
-        return new Result<>("注册成功！");
+        Result<Object> result = userService.register(user);
+        return result;
     }
 
     /**

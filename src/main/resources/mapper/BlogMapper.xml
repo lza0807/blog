@@ -47,8 +47,8 @@
         blog_id,blog_image, blog_title, blog_content, blog_goods, blog_read, blog_collection, blog_type, blog_remark, blog_comment, blog_source, created_time, update_time, version, deleted
     </sql>
     <insert id="save" parameterType="com.lza.blog.pojo.Blog">
-        insert into bl_blog(blog_id,blog_title, blog_content, blog_type, blog_remark, blog_source)
-        values(#{blogId},#{blogTitle},#{blogContent},#{blogType},#{blogRemark},#{blogSource})
+        insert into bl_blog(blog_id,blog_title, blog_image,blog_content, blog_type, blog_remark, blog_source)
+        values(#{blogId},#{blogTitle},#{blogContent},#{blogType},#{blogImage},#{blogRemark},#{blogSource})
     </insert>
     <update id="updateBlogInfoByid" parameterType="com.lza.blog.pojo.Blog">
         update bl_blog

@@ -11,6 +11,7 @@ import com.lza.blog.pojo.User;
 import com.lza.blog.service.UserService;
 import com.lza.blog.utils.Md5Utils;
 import com.lza.blog.utils.Page;
+import com.lza.blog.utils.Result;
 import com.lza.blog.utils.ShiroUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -84,13 +85,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void register(User user) {
+    public Result<Object> register(User user) {
         //首先查看是否存在相同的用户名
         User u = userMapper.isNotExist(user.getUsername());
         if (u!=null){
-            throw new BlogException(ResultEnum.PARAMS_ERROR.getCode(),"用户名已存在");
+            return new Result<>("该用户名已存在!");
         }
         userMapper.save(user);
+        return new Result<>("注册成功");
     }
 
     @Override

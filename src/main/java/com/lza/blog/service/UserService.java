@@ -3,6 +3,7 @@ package com.lza.blog.service;
 
 import com.lza.blog.pojo.User;
 import com.lza.blog.utils.Page;
+import com.lza.blog.utils.Result;
 
 import java.util.List;
 import java.util.Map;
@@ -66,7 +67,7 @@ public interface UserService {
      * @param user
      * @return
      */
-    void register(User user);
+    Result<Object> register(User user);
 
     /**
      * 获取登录用户
